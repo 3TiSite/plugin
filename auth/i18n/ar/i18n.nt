@@ -1,0 +1,16 @@
+signIn: تسجيل الدخول
+signUp: اشتراك
+mail: بريد إلكتروني
+password: كلمة المرور
+agree: يوافق
+resetPassword: إعادة تعيين كلمة المرور
+userAgreement: اتفاقية المستخدم
+setPassword: ضبط كلمة السر
+name: اسم
+code: رمز التحقق
+enterCode: أدخل رمز التحقق الذي تلقيته
+checkSpam: لا تنس التحقق من البريد العشوائي
+resend: انقر هنا إعادة الإرسال
+notRecv: لا تتلقى؟
+accountExist: الحساب موجود بالفعل، قم بتسجيل الدخول مباشرة
+created: تم إنشاء الحساب

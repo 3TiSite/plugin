@@ -1,0 +1,16 @@
+signIn: Registrazione
+signUp: Iscrizione
+mail: E-mail
+password: Parola d'ordine
+agree: Essere d'accordo
+resetPassword: Resetta la password
+userAgreement: Accordo per gli utenti
+setPassword: Impostare la password
+name: Nome
+code: Codice di verifica
+enterCode: Inserisci il codice di verifica che hai ricevuto
+checkSpam: Non dimenticare di controllare lo spam
+resend: Clicca qui Reinvia
+notRecv: Non ricevere ?
+accountExist: L'account esiste già, accedi direttamente
+created: Account creato

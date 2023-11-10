@@ -1,0 +1,16 @@
+signIn: Masuk
+signUp: Mendaftar
+mail: Surel
+password: Kata sandi
+agree: Setuju
+resetPassword: Atur Ulang Kata Sandi
+userAgreement: Perjanjian Pengguna
+setPassword: Tetapkan Kata Sandi
+name: Nama
+code: Kode verifikasi
+enterCode: Masukkan Kode Verifikasi yang Anda Terima
+checkSpam: Jangan Lupa Cek Spam
+resend: Klik Disini Kirim Ulang
+notRecv: Tidak menerima ?
+accountExist: Akun Sudah Ada, Langsung Masuk
+created: Akun telah dibuat

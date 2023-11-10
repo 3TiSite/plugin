@@ -1,0 +1,16 @@
+signIn: ログイン
+signUp: 登録する
+mail: 郵便
+password: パスワード
+agree: 同意する
+resetPassword: パスワードを再設定する
+userAgreement: ユーザー規約
+setPassword: パスワードを設定してください
+name: 名前
+code: 検証コード
+enterCode: 受け取った確認コードを入力してください
+checkSpam: スパムチェックも忘れずに
+resend: ここをクリックして再送信
+notRecv: 受信していない？
+accountExist: アカウントはすでに存在します。直接ログインしてください
+created: アカウントが正常に作成されました

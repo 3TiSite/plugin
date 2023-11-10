@@ -1,0 +1,16 @@
+signIn: เข้าสู่ระบบ
+signUp: ลงชื่อ
+mail: อีเมล
+password: รหัสผ่าน
+agree: เห็นด้วย
+resetPassword: รีเซ็ตรหัสผ่าน
+userAgreement: ข้อตกลงการใช้
+setPassword: ตั้งรหัสผ่าน
+name: ชื่อ
+code: รหัสยืนยัน
+enterCode: กรอกรหัสยืนยันที่คุณได้รับ
+checkSpam: อย่าลืมตรวจสอบสแปม
+resend: คลิกที่นี่ส่งอีกครั้ง
+notRecv: ไม่ได้รับ ?
+accountExist: มีบัญชีอยู่แล้ว ลงชื่อเข้าใช้โดยตรง
+created: สร้างบัญชีแล้ว

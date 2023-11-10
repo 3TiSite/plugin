@@ -1,0 +1,16 @@
+signIn: SignIn
+signUp: SignUp
+mail: Email
+password: Password
+agree: Uyon
+resetPassword: I-reset ang Password
+userAgreement: Kasabutan sa Gumagamit
+setPassword: Ibutang ang Password
+name: Ngalan
+code: Verification Code
+enterCode: Pagsulod sa Verification Code nga Imong Nadawat
+checkSpam: Ayaw Kalimti ang Pagsusi sa Spam
+resend: I-klik Dinhi Ipadala pag-usab
+notRecv: Dili Makadawat?
+accountExist: Anaa na ang Account, Direkta nga Pag-sign In
+created: Gibuhat ang Account

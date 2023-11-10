@@ -1,0 +1,16 @@
+signIn: Prijava
+signUp: Prijavite se
+mail: E-naslov
+password: Geslo
+agree: Se strinjam
+resetPassword: Ponastavitev gesla
+userAgreement: Uporabniška pogodba
+setPassword: Nastavi geslo
+name: Ime
+code: Koda za preverjanje
+enterCode: Vnesite potrditveno kodo, ki ste jo prejeli
+checkSpam: Ne pozabite preveriti vsiljene pošte
+resend: Kliknite tukaj Ponovno pošlji
+notRecv: Ne prejmeš?
+accountExist: Račun že obstaja, prijavite se neposredno
+created: Račun ustvarjen

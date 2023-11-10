@@ -1,0 +1,16 @@
+signIn: Кирүү
+signUp: Кирүү
+mail: Email
+password: Купуя сөз
+agree: макул
+resetPassword: Сырсөздү кайра коюу
+userAgreement: Колдонуучу келишими
+setPassword: Сырсөз коюу
+name: аты
+code: Текшерүү коду
+enterCode: Сиз алган текшерүү кодун киргизиңиз
+checkSpam: Спамды текшерүүнү унутпаңыз
+resend: Бул жерди басыңыз Кайра жөнөтүү
+notRecv: Кабыл алынбайбы?
+accountExist: Каттоо эсеби мурунтан эле бар, түз кириңиз
+created: Каттоо эсеби түзүлгөн

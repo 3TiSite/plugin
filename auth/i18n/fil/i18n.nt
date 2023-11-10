@@ -1,0 +1,16 @@
+signIn: Mag-signIn
+signUp: Mag-signUp
+mail: Email
+password: Password
+agree: Sumang-ayon
+resetPassword: I-reset ang Password
+userAgreement: Kasunduan ng User
+setPassword: Itakda ang Password
+name: Pangalan
+code: Verification Code
+enterCode: Ilagay ang Verification Code na Natanggap Mo
+checkSpam: Huwag Kalimutang Suriin ang Spam
+resend: Mag-click Dito Ipadala muli
+notRecv: Hindi natanggap ?
+accountExist: Umiiral na ang Account, Direktang Mag-sign In
+created: Nakagawa na ng account

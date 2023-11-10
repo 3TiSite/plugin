@@ -1,0 +1,16 @@
+signIn: SignIn
+signUp: SignUp
+mail: ئېلخەت
+password: پارول
+agree: ماقۇل
+resetPassword: پارولنى ئەسلىگە كەلتۈرۈش
+userAgreement: ئىشلەتكۈچى كېلىشىمى
+setPassword: پارول بەلگىلەڭ
+name: ئىسمى
+code: دەلىللەش كودى
+enterCode: تاپشۇرۇۋالغان دەلىللەش كودىنى كىرگۈزۈڭ
+checkSpam: ئەخلەت خەتنى تەكشۈرۈشنى ئۇنتۇپ قالماڭ
+resend: بۇ يەرنى چېكىڭ
+notRecv: تاپشۇرۇۋالمىدىڭىزمۇ؟
+accountExist: ھېسابات ئاللىبۇرۇن مەۋجۇت ، بىۋاسىتە تىزىملىتىڭ
+created: ھېسابات قۇرۇلدى

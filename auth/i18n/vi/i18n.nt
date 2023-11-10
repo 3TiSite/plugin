@@ -1,0 +1,16 @@
+signIn: Đăng nhập
+signUp: Đăng ký
+mail: E-mail
+password: Mật khẩu
+agree: Đồng ý
+resetPassword: Đặt lại mật khẩu
+userAgreement: sự thỏa thuận của người dùng
+setPassword: Đặt mật khẩu
+name: Tên
+code: Mã xác nhận
+enterCode: Nhập mã xác minh bạn nhận được
+checkSpam: Đừng quên kiểm tra thư rác
+resend: Bấm vào đây Gửi lại
+notRecv: Không nhận được?
+accountExist: Tài khoản đã tồn tại, đăng nhập trực tiếp
+created: Tài khoản đã được tạo

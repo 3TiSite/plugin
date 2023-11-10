@@ -1,0 +1,16 @@
+signIn: 로그인
+signUp: 가입하기
+mail: 이메일
+password: 비밀번호
+agree: 동의하다
+resetPassword: 암호를 재설정
+userAgreement: 사용자 계약
+setPassword: 암호를 설정하세요
+name: 이름
+code: 확인 코드
+enterCode: 받은 인증 코드를 입력하세요
+checkSpam: 스팸을 확인하는 것을 잊지 마세요
+resend: 여기를 클릭하세요. 재전송
+notRecv: 받지 않다 ?
+accountExist: 계정이 이미 존재합니다. 직접 로그인하세요.
+created: 계정이 생성되었습니다

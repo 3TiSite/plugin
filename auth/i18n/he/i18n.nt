@@ -1,0 +1,16 @@
+signIn: להתחבר
+signUp: הירשם
+mail: אימייל
+password: סיסמה
+agree: לְהַסכִּים
+resetPassword: לאפס את הסיסמה
+userAgreement: הסכמת המשתמש
+setPassword: הגדר סיסמא
+name: שֵׁם
+code: קוד אימות
+enterCode: הזן את קוד האימות שקיבלת
+checkSpam: אל תשכח לבדוק דואר זבל
+resend: לחץ כאן שלח שוב
+notRecv: לא לקבל ?
+accountExist: החשבון כבר קיים, היכנס ישירות
+created: חשבון נוצר

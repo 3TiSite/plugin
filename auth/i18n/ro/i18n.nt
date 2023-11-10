@@ -1,0 +1,16 @@
+signIn: Conectare
+signUp: Inscrie-te
+mail: E-mail
+password: Parola
+agree: De acord
+resetPassword: Reseteaza parola
+userAgreement: Acordul Utilizatorului
+setPassword: Seteaza parola
+name: Nume
+code: Cod de verificare
+enterCode: Introdu codul de verificare pe care l-ai primit
+checkSpam: Nu uitați să verificați spam-ul
+resend: Faceți clic aici Retrimiteți
+notRecv: Nu Primesc?
+accountExist: Contul există deja, conectați-vă direct
+created: Cont creat

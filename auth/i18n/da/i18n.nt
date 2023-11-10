@@ -1,0 +1,16 @@
+signIn: Log ind
+signUp: Tilmelde
+mail: E-mail
+password: Adgangskode
+agree: Enig
+resetPassword: Nulstille kodeord
+userAgreement: Brugeraftale
+setPassword: Indstil adgangskode
+name: Navn
+code: Verifikationskode
+enterCode: Indtast bekræftelseskode, du har modtaget
+checkSpam: Glem ikke at tjekke spam
+resend: Klik her Send igen
+notRecv: ikke modtage?
+accountExist: Konto eksisterer allerede, log ind direkte
+created: Konto oprettet

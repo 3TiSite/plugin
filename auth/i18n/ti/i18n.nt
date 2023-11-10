@@ -1,0 +1,16 @@
+signIn: SignIn
+signUp: ምዝገባ
+mail: ኢመይል
+password: መሕለፊ ቓል
+agree: ተስማዕማዕ
+resetPassword: ፓስዎርድ ዳግማይ ምትካል
+userAgreement: ስምምዕ ተጠቃሚ
+setPassword: Password ኣቐምጥ
+name: ሽም
+code: ናይ ምርግጋጽ ኮድ
+enterCode: ዝረኸብካዮ ናይ ምርግጋጽ ኮድ ኣእቱ
+checkSpam: ስፓም ምፍታሽ ኣይትረስዑ
+resend: ኣብዚ ጠውቑ ዳግማይ ምልኣኽ
+notRecv: ኣይቅበልን ?
+accountExist: ኣካውንት ድሮ ኣሎ፣ ብቐጥታ SignIn
+created: ኣካውንት ተፈጢሩ

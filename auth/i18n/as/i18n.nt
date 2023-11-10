@@ -1,0 +1,16 @@
+signIn: SignIn
+signUp: চাইনআপ কৰক
+mail: ইমেইল
+password: পাছৱৰ্ড
+agree: সহমত
+resetPassword: পাছৱৰ্ড পুনৰায় সেট কৰক
+userAgreement: ব্যৱহাৰকাৰী চুক্তি
+setPassword: পাছৱৰ্ড ছেট কৰক
+name: নাম
+code: ভেৰিফিকেচন ক'ড
+enterCode: আপুনি লাভ কৰা সত্যাপন ক'ড সুমুৱাওক
+checkSpam: স্পেম পৰীক্ষা কৰিবলৈ নাপাহৰিব
+resend: ইয়াত ক্লিক কৰক পুনৰ প্ৰেৰণ কৰক
+notRecv: গ্ৰহণ কৰা নহয় ?
+accountExist: একাউণ্ট ইতিমধ্যে আছে, পোনপটীয়াকৈ চাইনইন কৰক
+created: একাউণ্ট সৃষ্টি কৰা হৈছে

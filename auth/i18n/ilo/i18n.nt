@@ -1,0 +1,16 @@
+signIn: SignIn ti
+signUp: Agpirma
+mail: I-email
+password: Password
+agree: Umanamong
+resetPassword: I-reset ti Password
+userAgreement: Tulag ti Agus-usar
+setPassword: Itakderan ti Password
+name: Nagan
+code: Kodigo ti Beripikasion
+enterCode: Iserrek ti Verification Code nga Naawatmo
+checkSpam: Dimo Lipatan ti Mangsukimat iti Spam
+resend: I-click Ditoy Ipatulod manen
+notRecv: Saan nga Umawat ?
+accountExist: Addadan ti Kuenta, Direkta nga Ag-signIn
+created: Naaramid ti Kuenta

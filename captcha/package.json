@@ -1,0 +1,28 @@
+{
+  "name": "@~3/captcha",
+  "version": "0.1.30",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3TiSite/plugin.git"
+  },
+  "homepage": "https://github.com/3TiSite/plugin/tree/main/captcha",
+  "keywords": [
+    "3Ti.Site/plugin"
+  ],
+  "author": "3Ti.Site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*"
+  },
+  "files": [
+    "*"
+  ],
+  "type": "module",
+  "dependencies": {
+    "@3-/msgpack": "^0.0.2",
+    "@3-/render": "^0.0.1",
+    "@5-/captcha": "^0.0.7",
+    "@~3/box": "^0.1.17"
+  }
+}

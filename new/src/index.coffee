@@ -1,0 +1,2 @@
+< (tag)=>
+  document.createElement tag

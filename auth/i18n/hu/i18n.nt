@@ -1,0 +1,16 @@
+signIn: Bejelentkezés
+signUp: Regisztrálj
+mail: Email
+password: Jelszó
+agree: Egyetért
+resetPassword: Jelszó visszaállítása
+userAgreement: Felhasználói Szerződés
+setPassword: Állítsd be a jelszót
+name: Név
+code: Ellenőrző kód
+enterCode: Írja be a kapott ellenőrző kódot
+checkSpam: Ne felejtse el ellenőrizni a spameket
+resend: Kattintson ide Újraküldés
+notRecv: Nem kap ?
+accountExist: Már létezik fiók, jelentkezzen be közvetlenül
+created: Fiók létrehozva

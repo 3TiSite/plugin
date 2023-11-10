@@ -1,0 +1,16 @@
+signIn: Logga in
+signUp: Bli Medlem
+mail: E-post
+password: Lösenord
+agree: Hålla med
+resetPassword: Återställ lösenord
+userAgreement: Användaravtal
+setPassword: Välj lösenord
+name: namn
+code: Verifierings kod
+enterCode: Ange verifieringskoden du fick
+checkSpam: Glöm inte att kolla spam
+resend: Klicka här Skicka igen
+notRecv: Ej erhålla ?
+accountExist: Kontot finns redan, logga in direkt
+created: Konto skapat

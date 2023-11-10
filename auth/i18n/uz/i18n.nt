@@ -1,0 +1,16 @@
+signIn: Tizimga kirish
+signUp: Ro'yxatdan o'tish
+mail: Elektron pochta
+password: Parol
+agree: Rozi
+resetPassword: Parolni tiklash
+userAgreement: Foydalanuvchi shartnomasi
+setPassword: Parolni o'rnatish
+name: Ism
+code: Tasdiq kodi
+enterCode: Olingan tasdiqlash kodini kiriting
+checkSpam: Spamni tekshirishni unutmang
+resend: Bu yerni bosing Qayta yuborish
+notRecv: Qabul qilmayapsizmi?
+accountExist: Hisob allaqachon mavjud, to'g'ridan-to'g'ri kiring
+created: Hisob yaratildi

@@ -1,0 +1,16 @@
+signIn: Logg inn
+signUp: Melde deg på
+mail: E-post
+password: Passord
+agree: Bli enige
+resetPassword: Tilbakestille passord
+userAgreement: Brukeravtale
+setPassword: Lag et passord
+name: Navn
+code: Bekreftelseskode
+enterCode: Skriv inn bekreftelseskoden du har mottatt
+checkSpam: Ikke glem å sjekke spam
+resend: Klikk her Send på nytt
+notRecv: Ikke motta ?
+accountExist: Konto eksisterer allerede, logg på direkte
+created: Konto opprettet

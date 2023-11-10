@@ -1,0 +1,16 @@
+signIn: साइनइन करू
+signUp: साइनअप करू
+mail: ईमेल
+password: पासवर्ड
+agree: सहमत
+resetPassword: पासवर्ड रीसेट करू
+userAgreement: उपयोगकर्ता समझौता
+setPassword: पासवर्ड सेट करू
+name: नाम
+code: सत्यापन संहिता
+enterCode: सत्यापन कोड दर्ज करू जे अहाँकेँ भेटल अछि
+checkSpam: स्पैम चेक करब नहि बिसरब
+resend: एतय क्लिक करू पुनः पठाउ
+notRecv: नहि प्राप्त करब ?
+accountExist: खाता पहिने स मौजूद अछि, सीधा साइनइन करू
+created: खाता बनाओल गेल

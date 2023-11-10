@@ -1,0 +1,16 @@
+signIn: Kirjaudu sisään
+signUp: Kirjaudu
+mail: Sähköposti
+password: Salasana
+agree: Olla samaa mieltä
+resetPassword: Nollaa salasana
+userAgreement: Käyttäjäsopimus
+setPassword: Aseta salasana
+name: Nimi
+code: Vahvistuskoodi
+enterCode: Anna saamasi vahvistuskoodi
+checkSpam: Älä unohda tarkistaa roskapostia
+resend: Napsauta tästä Lähetä uudelleen
+notRecv: Etkö vastaanota?
+accountExist: Tili on jo olemassa, kirjaudu sisään suoraan
+created: Tili luotu

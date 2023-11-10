@@ -1,0 +1,19 @@
+{
+  "name": "@~3/toast",
+  "version": "0.0.2",
+  "repository": "https://github.com/3TiSite/plugin.git",
+  "homepage": "https://github.com/3TiSite/plugin/tree/main/toast",
+  "keywords": [
+    "3Ti.Site/plugin"
+  ],
+  "author": "3Ti.Site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*"
+  },
+  "files": [
+    "*"
+  ],
+  "type": "module"
+}

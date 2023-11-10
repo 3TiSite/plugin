@@ -1,0 +1,23 @@
+{
+  "name": "@~3/scroll",
+  "version": "0.0.2",
+  "repository": "https://github.com/3TiSite/plugin.git",
+  "homepage": "https://github.com/3TiSite/plugin/tree/main/scroll",
+  "keywords": [
+    "3Ti.Site/plugin"
+  ],
+  "author": "3Ti.Site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./lib/Scroll.svelte",
+    "./*": "./lib/*"
+  },
+  "files": [
+    "*"
+  ],
+  "type": "module",
+  "dependencies": {
+    "@3-/on": "^0.0.1",
+    "lodash-es": "^4.17.21"
+  }
+}

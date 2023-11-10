@@ -1,0 +1,16 @@
+signIn: 登錄
+signUp: 註冊
+mail: 郵箱
+password: 密碼
+agree: 同意
+resetPassword: 重設密碼
+userAgreement: 用戶協議
+setPassword: 設置密碼
+name: 名稱
+code: 驗證碼
+enterCode: 請輸入您收到的驗證碼
+checkSpam: 不要忘記檢查垃圾郵件
+resend: 點此重發
+notRecv: 未收到?
+accountExist: 賬戶已存在，直接登錄
+created: 帳戶創建成功
