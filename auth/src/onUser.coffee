@@ -1,5 +1,7 @@
 > @5-/auth/S.js > authMe
   @3-/cookieget
+  @~3/bc/bcHook.js
+  @~3/bc/toAll.js
 
 HOOK = new Set
 
@@ -31,12 +33,25 @@ await do =>
   save(v)
   return
 
-< setUser = (user)=>
+
+_setUser = (user)=>
   USER = user
-  save()
-  for i from HOOK
-    i(user)
+  HOOK.forEach(
+    (i)=>i(user)
+  )
   return
+
+< setUser = (user)=>
+  _setUser user
+  save()
+  toAll 1,user
+  return
+
+< exit = =>
+  setUser false
+  return
+
+bcHook(1,_setUser)
 
 export User = => USER
 
