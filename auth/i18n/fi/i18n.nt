@@ -14,3 +14,5 @@ resend: Napsauta tästä Lähetä uudelleen
 notRecv: Etkö vastaanota?
 accountExist: Tili on jo olemassa, kirjaudu sisään suoraan
 created: Tili luotu
+exit: Poistu
+userAdmin: Käyttäjän järjestelmänvalvoja

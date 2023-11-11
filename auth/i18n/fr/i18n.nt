@@ -14,3 +14,5 @@ resend: Cliquez ici Renvoyer
 notRecv: Non reçu ?
 accountExist: Un compte existe déjà, connectez-vous directement
 created: Compte créé
+exit: Sortie
+userAdmin: Administrateur utilisateur

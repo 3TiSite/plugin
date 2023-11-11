@@ -14,3 +14,5 @@ resend: Kliknite ovdje Ponovno pošalji
 notRecv: Ne primate?
 accountExist: Račun već postoji, prijavite se izravno
 created: Račun stvoren
+exit: Izlaz
+userAdmin: Administrator korisnika

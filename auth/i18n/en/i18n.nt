@@ -14,3 +14,5 @@ notRecv: Not Receive ?
 resend: Click Here Resend
 accountExist: Account Already Exist, SignIn Directly
 created: Account Created
+exit: Exit
+userAdmin: User Admin

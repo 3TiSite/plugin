@@ -14,3 +14,5 @@ resend: Kattintson ide Újraküldés
 notRecv: Nem kap ?
 accountExist: Már létezik fiók, jelentkezzen be közvetlenül
 created: Fiók létrehozva
+exit: Kijárat
+userAdmin: Felhasználói adminisztrátor

@@ -14,3 +14,5 @@ resend: Bấm vào đây Gửi lại
 notRecv: Không nhận được?
 accountExist: Tài khoản đã tồn tại, đăng nhập trực tiếp
 created: Tài khoản đã được tạo
+exit: Lối ra
+userAdmin: Quản trị viên người dùng

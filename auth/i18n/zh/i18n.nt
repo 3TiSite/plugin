@@ -14,3 +14,5 @@ resend: 点此重发
 notRecv: 未收到?
 accountExist: 账户已存在，直接登录
 created: 帐户创建成功
+exit: 登出
+userAdmin: 用户管理

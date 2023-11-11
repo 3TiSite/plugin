@@ -14,3 +14,5 @@ resend: ここをクリックして再送信
 notRecv: 受信していない？
 accountExist: アカウントはすでに存在します。直接ログインしてください
 created: アカウントが正常に作成されました
+exit: サインアウト
+userAdmin: ユーザー管理

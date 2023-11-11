@@ -50,8 +50,10 @@ _setUser = (user)=>
   return
 
 < exit = =>
+  if USER
+    [id] = USER
   setUser false
-  return
+  return id
 
 bcHook(1,_setUser)
 

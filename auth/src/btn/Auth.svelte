@@ -37,26 +37,11 @@ b
   &>:global(b)
     background #fff
     flex-direction column
+    margin-top -15px
     padding 0 8px
     position absolute
     right 0
     top 100%
-
-  &>:global(b>a)
-    border 1px solid #ccc
-    border-top 0
-    color #666
-    padding 8px
-    white-space nowrap
-    width 100%
-
-  &>:global(b>a:hover)
-    background #f40
-    border-color #f40
-    color #fff
-
-  &>:global(b>a:first-child)
-    border-top 1px solid #ccc
 
   &>a
     color #000

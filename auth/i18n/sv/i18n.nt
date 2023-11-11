@@ -14,3 +14,5 @@ resend: Klicka här Skicka igen
 notRecv: Ej erhålla ?
 accountExist: Kontot finns redan, logga in direkt
 created: Konto skapat
+exit: Utgång
+userAdmin: Användaradmin
