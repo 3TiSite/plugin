@@ -1,5 +1,7 @@
+> @~3/new:New
+
 div = =>
-  document.createElement 'div'
+  New.div
 
 class TOAST
     constructor:->
@@ -39,7 +41,7 @@ class TOAST
         inner.innerText = msg
       elem.appendChild inner
       if close
-        close_i = document.createElement 'i'
+        close_i = New.i
         close_i.className = 'x'
         elem.appendChild close_i
       # elem = $ """<div class="" style=>#{msg}</div>"""

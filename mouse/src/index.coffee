@@ -1,7 +1,8 @@
 > ./Body.svelte
+  @~3/new:New
 
 < =>
-  b = document.createElement 'b'
+  {b} = New
   new Body({
     target: b
   })

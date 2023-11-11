@@ -37,7 +37,9 @@ await do =>
 _setUser = (user)=>
   USER = user
   HOOK.forEach(
-    (i)=>i(user)
+    (f)=>
+      f(user)
+      return
   )
   return
 
@@ -56,8 +58,8 @@ bcHook(1,_setUser)
 export User = => USER
 
 export default (f)=>
-  f USER
   HOOK.add f
+  f USER
   =>
     HOOK.delete f
     return

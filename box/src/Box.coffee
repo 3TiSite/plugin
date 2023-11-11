@@ -4,7 +4,7 @@
 {body} = document
 
 < =>
-  dialog = New 'dialog'
+  dialog = New.dialog
   dialog.className = 'uBox'
   On dialog,{
     close: =>

@@ -1,11 +1,11 @@
 {
-  "name": "@~3/errer",
-  "version": "0.1.3",
+  "name": "@~3/menu",
+  "version": "0.1.10",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/3TiSite/plugin.git"
   },
-  "homepage": "https://github.com/3TiSite/plugin/tree/main/errer",
+  "homepage": "https://github.com/3TiSite/plugin/tree/main/menu",
   "keywords": [
     "3Ti.Site/plugin"
   ],
@@ -21,7 +21,8 @@
   "scripts": {},
   "type": "module",
   "dependencies": {
-    "@~3/focus": "^0.0.1",
-    "@~3/new": "^0.1.1"
+    "@3-/on": "^0.0.1",
+    "@~3/new": "^0.1.1",
+    "@~3/svelte_mount": "^0.0.1"
   }
 }

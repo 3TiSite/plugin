@@ -2,6 +2,7 @@
 > ~/lib/S.js
   @3-/render:
   @5-/captcha > Captcha
+  @~3/new:New
 
 < req
 < reject
@@ -45,7 +46,7 @@ clear = =>
 
     if size
       id_set.delete n
-      i = document.createElement 'i'
+      {i} = New
       i.innerHTML = n
       i.style="top:#{layerY-15}px;left:#{layerX-15}px"
       b.appendChild(i)

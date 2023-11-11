@@ -1,2 +1,5 @@
-< (tag)=>
-  document.createElement tag
+< new Proxy(
+  {}
+  get:(_, tag)=>
+    document.createElement tag
+)

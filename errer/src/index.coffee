@@ -40,7 +40,7 @@ EV_TAG = ['INPUT','TEXTAREA']
         for [k,v] from err
           i = form.querySelector '#'+k
           if i
-            b = New 'b'
+            {b} = New
             b.className = E
             b.innerHTML = v
             p = i.parentNode

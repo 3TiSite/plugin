@@ -3,7 +3,7 @@
   ./Box.js
 
 < xClose = (dialog)=>
-  x = New 'a'
+  x = New.a
   x.className = 'x'
   dialog.prepend x
   On x, {
