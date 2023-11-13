@@ -16,3 +16,5 @@ accountExist: Konto eksisterer allerede, logg på direkte
 created: Konto opprettet
 exit: Exit
 userAdmin: Bruker Admin
+addAccount: Legg til konto
+exitAll: Avslutt alle

@@ -16,3 +16,5 @@ accountExist: खाता पहिने स मौजूद अछि, सी
 created: खाता बनाओल गेल
 exit: बाहर जानाइ
 userAdmin: उपयोगकर्ता प्रशासक
+addAccount: खाता जोड़ू
+exitAll: सब स बाहर निकलू

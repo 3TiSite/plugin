@@ -16,3 +16,5 @@ accountExist: 账户已存在，直接登录
 created: 帐户创建成功
 exit: 登出
 userAdmin: 用户管理
+addAccount: 新增帐户
+exitAll: 全部登出

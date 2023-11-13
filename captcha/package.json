@@ -1,6 +1,6 @@
 {
   "name": "@~3/captcha",
-  "version": "0.1.33",
+  "version": "0.1.35",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/3TiSite/plugin.git"
@@ -23,7 +23,7 @@
     "@3-/msgpack": "^0.0.2",
     "@3-/render": "^0.0.1",
     "@5-/captcha": "^0.0.7",
-    "@~3/box": "^0.1.18",
+    "@~3/box": "^0.1.19",
     "@~3/new": "^0.1.1"
   }
 }

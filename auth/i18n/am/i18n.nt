@@ -16,3 +16,5 @@ accountExist: መለያ አስቀድሞ አለ፣ በቀጥታ ይግቡ
 created: መለያ ተፈጠረ
 exit: ውጣ
 userAdmin: የተጠቃሚ አስተዳዳሪ
+addAccount: መለያ አክል
+exitAll: ሁሉንም ውጣ

@@ -16,3 +16,5 @@ accountExist: Kontot finns redan, logga in direkt
 created: Konto skapat
 exit: Utgång
 userAdmin: Användaradmin
+addAccount: Lägg till konto
+exitAll: Avsluta alla

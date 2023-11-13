@@ -16,3 +16,5 @@ accountExist: Tili on jo olemassa, kirjaudu sisään suoraan
 created: Tili luotu
 exit: Poistu
 userAdmin: Käyttäjän järjestelmänvalvoja
+addAccount: Lisää tili
+exitAll: Poistu kaikista

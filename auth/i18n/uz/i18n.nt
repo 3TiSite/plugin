@@ -16,3 +16,5 @@ accountExist: Hisob allaqachon mavjud, to'g'ridan-to'g'ri kiring
 created: Hisob yaratildi
 exit: Chiqish
 userAdmin: Foydalanuvchi administratori
+addAccount: Hisob qo'shish
+exitAll: Hammasidan chiqish

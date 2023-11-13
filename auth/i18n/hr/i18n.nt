@@ -16,3 +16,5 @@ accountExist: Račun već postoji, prijavite se izravno
 created: Račun stvoren
 exit: Izlaz
 userAdmin: Administrator korisnika
+addAccount: Dodaj račun
+exitAll: Izlaz iz svih

@@ -16,3 +16,5 @@ accountExist: Účet už existuje, prihláste sa priamo
 created: Účet vytvorený
 exit: VÝCHOD
 userAdmin: Správca používateľa
+addAccount: Pridať účet
+exitAll: Ukončiť všetko

@@ -16,3 +16,5 @@ accountExist: खाता पहले से मौजूद है, सीध
 created: खाता बन गया
 exit: बाहर निकलना
 userAdmin: उपयोगकर्ता व्यवस्थापक
+addAccount: खाता जोड़ें
+exitAll: सभी से बाहर निकलें

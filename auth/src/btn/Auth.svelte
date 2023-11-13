@@ -26,6 +26,8 @@ b
 </template>
 
 <style lang="stylus">
+@import '~/styl/var.styl'
+
 b
   align-self stretch
   border-left 1px solid #eee
@@ -35,13 +37,7 @@ b
   position relative
 
   &>:global(b)
-    background #fff
-    flex-direction column
     margin-top -15px
-    padding 0 8px
-    position absolute
-    right 0
-    top 100%
 
   &>a
     color #000
@@ -55,7 +51,7 @@ b
       margin-right 0
 
     &:hover
-      color #f40
+      color btn-hover
 
     &.u
       background var(--svgNabla) 100% 56% no-repeat
@@ -64,8 +60,8 @@ b
       padding 0 16px 3px 0
 
       &:hover
-        border-bottom-color #f40
-        filter invert(42%) sepia(1) saturate(47)
+        border-bottom-color btn-hover
+        filter btn-hover-filter
         opacity 1
 </style>
 

@@ -16,3 +16,5 @@ accountExist: A conta já existe, faça login diretamente
 created: Conta criada
 exit: Saída
 userAdmin: Administrador de usuários
+addAccount: Adicionar Conta
+exitAll: Sair de tudo

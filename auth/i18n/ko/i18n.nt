@@ -16,3 +16,5 @@ accountExist: 계정이 이미 존재합니다. 직접 로그인하세요.
 created: 계정이 생성되었습니다
 exit: 출구
 userAdmin: 사용자 관리자
+addAccount: 계정을 추가
+exitAll: 모두 종료

@@ -9,9 +9,11 @@
   ./SignUp.svelte
   ./sign.js
 
-< n
+< n = 1
+< account = localStorage.account or ''
 
 + form, input_li, autocomplete
+
 
 N = 'n'
 
@@ -29,6 +31,7 @@ ua = boxmd.bind(null,'UA')
 
 onMount =>
   input_li = [...form.getElementsByTagName 'input'].slice(0,2)
+  input_li[0].value = account
   focus form
   button_li = [...form.getElementsByTagName 'button'].slice(1,3)
   for i from button_li
@@ -59,6 +62,7 @@ submit = =>
   if user != undefined
     form.parentNode.close()
     if user
+      localStorage.account = input_li[0].value
       setUser user
     else
       Box SignUp, {

@@ -16,3 +16,5 @@ accountExist: حساب از قبل وجود دارد، مستقیماً وارد
 created: حساب کاربری ایجاد شد
 exit: خارج شوید
 userAdmin: مدیر کاربر
+addAccount: اضافه کردن حساب
+exitAll: خروج از همه

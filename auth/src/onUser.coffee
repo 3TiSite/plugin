@@ -1,4 +1,4 @@
-> @5-/auth/S.js > authMe
+> @5-/auth/S.js > authMe authExit
   @3-/cookieget
   @~3/bc/bcHook.js
   @~3/bc/toAll.js
@@ -33,7 +33,6 @@ await do =>
   save(v)
   return
 
-
 _setUser = (user)=>
   USER = user
   HOOK.forEach(
@@ -44,16 +43,20 @@ _setUser = (user)=>
   return
 
 < setUser = (user)=>
+  user = user or false
   _setUser user
   save()
   toAll 1,user
   return
 
-< exit = =>
-  if USER
-    [id] = USER
-  setUser false
-  return id
+< exit = (id)=>
+  if id
+    setUser(
+      await authExit(id)
+    )
+  else
+    setUser false
+  return USER
 
 bcHook(1,_setUser)
 

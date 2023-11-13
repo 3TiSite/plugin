@@ -16,3 +16,5 @@ accountExist: Akun Sudah Ada, Langsung Masuk
 created: Akun telah dibuat
 exit: KELUAR
 userAdmin: Admin Pengguna
+addAccount: Menambahkan akun
+exitAll: Keluar dari Semua

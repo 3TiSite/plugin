@@ -16,3 +16,5 @@ accountExist: Reikningur er þegar til, skráðu þig inn beint
 created: Reikningur búinn til
 exit: Hætta
 userAdmin: Notendastjóri
+addAccount: Bæta við aðgangi
+exitAll: Hætta allt

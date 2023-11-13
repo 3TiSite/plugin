@@ -16,3 +16,5 @@ accountExist: Konto on juba olemas, logige otse sisse
 created: Konto loodud
 exit: Välju
 userAdmin: Kasutaja administraator
+addAccount: Lisada konto
+exitAll: Välju kõigest

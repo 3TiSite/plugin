@@ -16,3 +16,5 @@ accountExist: 賬戶已存在，直接登錄
 created: 帳戶創建成功
 exit: 登出
 userAdmin: 用戶管理
+addAccount: 新增帳戶
+exitAll: 全部登出

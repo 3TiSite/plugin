@@ -16,3 +16,5 @@ accountExist: Mae'r Cyfrif Yn Bodoli'n Eisoes, Mewngofnodwch yn Uniongyrchol
 created: Crëwyd y Cyfrif
 exit: Ymadael
 userAdmin: Gweinyddwr Defnyddwyr
+addAccount: Ychwanegu Cyfrif
+exitAll: Gadael Pawb

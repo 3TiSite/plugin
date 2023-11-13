@@ -16,3 +16,5 @@ accountExist: Konts jau pastāv, pierakstieties tieši
 created: Konts izveidots
 exit: Izeja
 userAdmin: Lietotāja administrators
+addAccount: Pievienot kontu
+exitAll: Iziet no visiem

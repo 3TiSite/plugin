@@ -16,3 +16,5 @@ accountExist: Бүртгэл аль хэдийн байгаа тул шууд н
 created: Бүртгэл үүсгэсэн
 exit: гарах
 userAdmin: Хэрэглэгчийн админ
+addAccount: Данс нэмэх
+exitAll: Бүгдээс гарах

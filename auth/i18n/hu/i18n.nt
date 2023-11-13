@@ -16,3 +16,5 @@ accountExist: Már létezik fiók, jelentkezzen be közvetlenül
 created: Fiók létrehozva
 exit: Kijárat
 userAdmin: Felhasználói adminisztrátor
+addAccount: Fiók hozzáadása
+exitAll: Kilépés az összesből

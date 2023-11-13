@@ -16,3 +16,5 @@ accountExist: Konto eksisterer allerede, log ind direkte
 created: Konto oprettet
 exit: Afslut
 userAdmin: Bruger Admin
+addAccount: Tilføj konto
+exitAll: Afslut alle

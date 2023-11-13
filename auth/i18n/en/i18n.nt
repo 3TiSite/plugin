@@ -16,3 +16,5 @@ accountExist: Account Already Exist, SignIn Directly
 created: Account Created
 exit: Exit
 userAdmin: User Admin
+addAccount: Add Account
+exitAll: Exit All

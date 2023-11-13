@@ -16,3 +16,5 @@ accountExist: החשבון כבר קיים, היכנס ישירות
 created: חשבון נוצר
 exit: יְצִיאָה
 userAdmin: מנהל משתמש
+addAccount: הוסף חשבון
+exitAll: צא מכל

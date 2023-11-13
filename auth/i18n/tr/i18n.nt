@@ -16,3 +16,5 @@ accountExist: Hesap Zaten Mevcut, Doğrudan Oturum Açın
 created: Hesap oluşturuldu
 exit: çıkış
 userAdmin: Kullanıcı Yöneticisi
+addAccount: Hesap eklemek
+exitAll: Tümünden Çık

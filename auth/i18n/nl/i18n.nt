@@ -16,3 +16,5 @@ accountExist: Account bestaat al, meld u direct aan
 created: Account aangemaakt
 exit: Uitgang
 userAdmin: Gebruikersbeheerder
+addAccount: Account toevoegen
+exitAll: Sluit alles af

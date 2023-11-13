@@ -7,6 +7,7 @@
     p = @parentNode
     if not b
       {b} = New
+      b.className = 'menu'
       m = create.call @, b
       p.append b
       setTimeout =>

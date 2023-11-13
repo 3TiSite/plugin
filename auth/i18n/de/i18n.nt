@@ -16,3 +16,5 @@ accountExist: Das Konto ist bereits vorhanden. Melden Sie sich direkt an
 created: Account erstellt
 exit: Ausfahrt
 userAdmin: Benutzerverwaltung
+addAccount: Konto hinzufügen
+exitAll: Alle beenden

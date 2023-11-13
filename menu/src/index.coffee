@@ -1,5 +1,5 @@
 > @~3/svelte_mount:mount
-  ./new.js:New
+  ./New.js
 
 < (svelte, props)=>
   New(

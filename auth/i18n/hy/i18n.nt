@@ -16,3 +16,5 @@ accountExist: Հաշիվն արդեն գոյություն ունի, Մուտք 
 created: Ստեղծվել է հաշիվ
 exit: Ելք
 userAdmin: Օգտատիրոջ ադմին
+addAccount: Ավելացնել հաշիվ
+exitAll: Դուրս գալ բոլորից
