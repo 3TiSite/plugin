@@ -1,7 +1,9 @@
 > @5-/auth/S.js > authMe authExit
+  ~/lib/S.js > setAuth
   @3-/cookieget
   @~3/bc/bcHook.js
   @~3/bc/toAll.js
+  ./auth.js > signIn
 
 HOOK = new Set
 
@@ -68,3 +70,13 @@ export default (f)=>
   =>
     HOOK.delete f
     return
+
+setAuth (next)=>
+  f = =>
+    next().finally =>
+      HOOK.remove(f)
+      return
+    return
+  HOOK.add f
+  signIn()
+  return

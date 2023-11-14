@@ -6,6 +6,7 @@
   ./auth.js > signIn
   ./Auth.svelte
   ./Menu.svelte
+  ./Conf.svelte
   ./RmMenu.svelte
   ./onUser.js > setUser exit
 
@@ -63,8 +64,16 @@ rmMenu = menu(
 inMenu = menu(
   Menu
   {
-    config:aRel (id)=>
-      console.log 'id',id
+    config:aRel (id)->
+      for i from li
+        if i[0] == id
+          Box(
+            Conf
+            {
+              li: i.slice(0,2)
+            }
+          )
+          pbox(@).close()
       return
 
     exit:aRel (id)=>

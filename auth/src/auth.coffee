@@ -11,9 +11,7 @@ sign = (n)=>
 # 注册
 < signUp = =>
   sign(0)
-  return
 
 # 登录
 < signIn = =>
   sign(1)
-  return
