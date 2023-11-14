@@ -11,17 +11,45 @@
 
 + li
 
+pbox = (e)=>
+  loop
+    if e.tagName == 'DIALOG'
+      return e
+    e = e.parentNode
+  return
+
 aRel = (f)=>
   ->
-    f +@parentNode.previousSibling.rel
+    f.call @, +@parentNode.previousSibling.rel
     return
+
+set = (id)->
+  box = pbox @
+  first = 1
+  for [_id,_,account,e] from li
+    if e
+      if id == _id
+        Box(Auth,{account})
+        box.close()
+        return
+    else
+      if id == _id
+        if first
+          return
+      first = 0
+
+  li = 0
+  setUser await authSet id
+  box.close()
+  return
 
 rmMenu = menu(
   RmMenu
   {
+    signIn: aRel set
     rm:aRel (id)=>
       t = li
-      li = undefined
+      li = 0
       await authRm id
       for i,p in t
         if i[0] == id
@@ -41,7 +69,7 @@ inMenu = menu(
 
     exit:aRel (id)=>
       t = li
-      li = undefined
+      li = 0
       now = await exit id
       for i,p in t
         if id == i[0]
@@ -71,12 +99,9 @@ drop = ->
       break
   return
 
-pp = (e)=>
-  e.parentNode.parentNode
-
 exitAll = ->
-  box = pp @
-  li = undefined
+  box = pbox @
+  li = 0
   await authExitAll()
   setUser false
   box.close()
@@ -84,27 +109,7 @@ exitAll = ->
 
 add = ->
   Box(Auth, {account:''})
-  pp(@).close()
-  return
-
-set = (id)->
-  box = pp @
-  first = 1
-  for [_id,_,account,e] from li
-    if e
-      if id == _id
-        Box(Auth,{account})
-        box.close()
-        return
-    else
-      if id == _id
-        if first
-          return
-      first = 0
-
-  li = 0
-  setUser await authSet id
-  box.close()
+  pbox(@).close()
   return
 
 onMount =>
@@ -174,6 +179,9 @@ p
   margin 0
   position relative
 
+  :global(b.menu)
+    right -2px
+
   &>i, &>a
     position relative
 
@@ -185,23 +193,48 @@ p
     cursor pointer
     flex 1
 
+    &>b>b
+      color #999
+
+    &:hover
+      &>b
+        color #f40
+
+      &>b>b
+        color #f40
+
     &.n
       cursor auto
 
-    &.n:after, &:hover:after
-      background #dd0
-      border-radius 4px
-      box-shadow 0 0 3px inset
-      color #f40
-      height 8px
-      margin-top -4px
+      &>b, &>b>b
+        color #000
+
+    &:after
       right 22px
       top 50%
-      width 8px
+
+    &:hover:after
+      border 1px solid #f40
+      border-radius 13px
+      color #f40
+      content '→'
+      font-weight 100
+      height 27px
+      line-height 25px
+      margin-top -12px
+      padding 0 7px
 
     &.n:after
       background #3d0
-      color #363
+      border 0
+      border-radius 4px
+      box-shadow 0 0 3px inset
+      color #090
+      content ''
+      height 8px
+      margin-top -4px
+      padding 0
+      width 8px
 
   &>a
     background var(--svgDv) 0 100% repeat-x

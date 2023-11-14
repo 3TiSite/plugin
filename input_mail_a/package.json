@@ -1,28 +1,24 @@
 {
-  "name": "@~3/boxmd",
-  "version": "0.1.10",
+  "name": "@~3/input_mail_a",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/3TiSite/plugin.git"
   },
-  "homepage": "https://github.com/3TiSite/plugin/tree/main/boxmd",
+  "homepage": "https://github.com/3TiSite/plugin/tree/main/input_mail_a",
   "keywords": [
     "3Ti.Site/plugin"
   ],
   "author": "3Ti.Site@gmail.com",
   "license": "Apache-2.0",
   "exports": {
-    ".": "./lib/index.js",
+    ".": "./lib/Index.svelte",
     "./*": "./lib/*"
   },
   "files": [
     "lib/*"
   ],
+  "devDependencies": {},
   "scripts": {},
-  "type": "module",
-  "dependencies": {
-    "@~3/box": "^0.1.20",
-    "@~3/md": "^0.0.3",
-    "@~3/svelte_mount": "^0.0.1"
-  }
+  "type": "module"
 }

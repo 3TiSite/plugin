@@ -28,5 +28,8 @@
   }
   dialog
 
-< =>
-  xClose escClose Box()
+< (func)=>
+  box = Box()
+  # can set innerHTML before X add
+  func?(box)
+  xClose escClose box

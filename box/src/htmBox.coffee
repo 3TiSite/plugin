@@ -1,6 +1,8 @@
 > ./xBox.js
 
 < (html)=>
-  box = xBox()
-  box.innerHTML = html
-  box
+  xBox(
+    (b)=>
+      b.innerHTML = html
+      return
+  )

@@ -7,6 +7,7 @@
   ./onUser.js > setUser
   ~/lib/fTxtMd.js
   ./SignUp.svelte
+  ./ResetPasswd.svelte
   ./sign.js
 
 < n = 1
@@ -54,6 +55,13 @@ onMount =>
   button_li[(n+1)%2].classList.add N
   return
 
+reset = =>
+  Box(
+    ResetPasswd
+  )
+  form.parentNode.close()
+  return
+
 submit = =>
   if not argee
     return
@@ -93,7 +101,7 @@ form(@&form @submit|preventDefault=submit)
       input#uAuthAgree(checked&argee type="checkbox")
       label(for="uAuthAgree") >agree
       a(@click=ua) >userAgreement
-    a >resetPassword
+    a(@click=reset) >resetPassword
 </template>
 
 <style lang="stylus">
