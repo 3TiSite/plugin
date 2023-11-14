@@ -3,11 +3,11 @@
   @~3/errer:@ > clear
   @~3/focus
   @~3/box:Box
+  ./reset.js
   ~/lib/SITE.js
   ./onUser.js > setUser
   ~/lib/fTxtMd.js
   ./SignUp.svelte
-  ./ResetPasswd.svelte
   ./sign.js
 
 < n = 1
@@ -55,13 +55,6 @@ onMount =>
   button_li[(n+1)%2].classList.add N
   return
 
-reset = =>
-  Box(
-    ResetPasswd
-  )
-  form.parentNode.close()
-  return
-
 submit = =>
   if not argee
     return
@@ -101,7 +94,8 @@ form(@&form @submit|preventDefault=submit)
       input#uAuthAgree(checked&argee type="checkbox")
       label(for="uAuthAgree") >agree
       a(@click=ua) >userAgreement
-    a(@click=reset) >resetPassword
+    a(@click={reset.call(this,input_li[0].value)})
+      | >resetPassword
 </template>
 
 <style lang="stylus">

@@ -1,6 +1,7 @@
 <script lang="coffee">
 > @5-/auth/S.js > authConfMeta
   @~3/wait:Wait
+  ./reset.js
 
 # id name
 < li
@@ -10,6 +11,17 @@
 onMount =>
   [id] = li
   mail = await authConfMeta id
+  return
+
+set = ->
+  [b] = reset.call(
+    @
+    mail
+  )
+  [u,p] = b.getElementsByTagName('input')
+  u.disabled = true
+  p.focus()
+  p.select()
   return
 </script>
 
@@ -24,8 +36,8 @@ onMount =>
     a
     b >password
     i
-      a >resetPassword
-    a
+      a(@click=set) >resetPassword
+    a(@click=set)
   +else
     Wait
 </template>

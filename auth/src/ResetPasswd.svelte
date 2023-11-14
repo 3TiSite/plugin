@@ -4,6 +4,8 @@
   @~3/box:Box
   ./Passwd.svelte
 
+< account
+
 + form, input_li
 
 submit = =>
@@ -36,6 +38,7 @@ form(@&form @submit|preventDefault=submit)
     placeholder=" "
     required
     type="text"
+    value&account
   )
   +input(">setPassword")#password(
     autocomplete="off"

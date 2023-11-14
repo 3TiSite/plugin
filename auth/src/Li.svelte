@@ -1,5 +1,6 @@
 <script lang="coffee">
 > @5-/auth/S.js > authLi authSet authRm authExitAll
+  ./pbox.js
   @~3/menu
   @~3/box:Box
   @~3/wait:Wait
@@ -11,13 +12,6 @@
   ./onUser.js > setUser exit
 
 + li
-
-pbox = (e)=>
-  loop
-    if e.tagName == 'DIALOG'
-      return e
-    e = e.parentNode
-  return
 
 aRel = (f)=>
   ->
@@ -146,7 +140,7 @@ onMount =>
         b
           | {name}
           b {account}
-      a(@click={drop} rel:id)
+      a(@click=drop rel:id)
   i
     a(@click=add) >addAccount
     a(@click=exitAll) >exitAll
