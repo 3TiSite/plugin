@@ -4,12 +4,12 @@
   @~3/menu
   @~3/box:Box
   @~3/wait:Wait
-  ./auth.js > signIn
   ./Auth.svelte
   ./Menu.svelte
   ./Conf.svelte
   ./RmMenu.svelte
   ./onUser.js > setUser exit
+  ./auth.js > signIn
 
 + li
 
@@ -117,6 +117,10 @@ add = ->
 
 onMount =>
   t = await authLi()
+  if not t
+    setUser false
+    signIn()
+    return
   inli =[]
   outli = []
   for i from t
@@ -157,7 +161,7 @@ p, i
   user-select none
 
 i
-  background var(--svgDv) 5px 0 repeat-x
+  background var(--svgDh) 5px 0 repeat-x
   font-style normal
   padding 16px
 
@@ -240,7 +244,7 @@ p
       width 8px
 
   &>a
-    background var(--svgDv) 0 100% repeat-x
+    background var(--svgDh) 0 100% repeat-x
     border 1px solid transparent
     border-right 0
     margin-bottom -2px
@@ -253,7 +257,7 @@ p
       top 0
 
     &:before
-      background var(--svgDh) 0 0 repeat-y
+      background var(--svgDv) 0 0 repeat-y
 
     &:after
       background var(--svgNabla) 50% 50% / 12px no-repeat

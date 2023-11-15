@@ -1,8 +1,6 @@
 <script lang="coffee">
-> @~3/captcha
-  @~3/errer
-  @~3/box:Box
-  ./Passwd.svelte
+> @~3/errer
+  ./passwd.js
 
 < account
 
@@ -12,14 +10,8 @@ submit = =>
   li = input_li.map (i)=>i.value
   if undefined != await errer(
     form
-    captcha.authReset ...li
+    passwd li
   )
-    Box(
-      Passwd
-      {
-        li
-      }
-    )
     form.parentNode.close()
   return
 
