@@ -22,7 +22,7 @@ N = =>
   show = 0
   return
 
-open = =>
+< open = =>
   bak = val
   show = 1
   await tick()

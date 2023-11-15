@@ -1,14 +1,19 @@
 <script lang="coffee">
-> @5-/auth/S.js > authConfMeta
+> @5-/auth/S.js > authConfMeta authName
   @~3/wait:Wait
   @~3/edit:Edit
+  ./onUser.js > User setUser
   ./reset.js
   ./passwd.js:passwdBox
 
 # id name
 < li
 
-+ main, mail, passwd
++ main, mail, passwd, passwdEdit
+
+passwdShow = =>
+  passwdEdit.open()
+  return
 
 onMount =>
   [id] = li
@@ -19,9 +24,14 @@ setPasswd = =>
   passwdBox [mail,passwd]
 
 setName = =>
+  await authName ...li
+  u = User()
+  if u and u[0] == li[0]
+    setUser li
   return 1
 
 setMail = =>
+  console.log mail,'mail'
   return 1
 
 </script>
@@ -47,8 +57,8 @@ include /input.pug
         type="text"
         value&mail
       )
-    Edit(name:>password val:passwd y:setPasswd)
-      a(slot="t") >resetPassword
+    Edit(@&passwdEdit name:>password val:passwd y:setPasswd)
+      a(@click=passwdShow slot="t") >resetPassword
       +input(">password")#passwd(
         autocomplete="off"
         minlength="6"
