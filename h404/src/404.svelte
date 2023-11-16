@@ -256,12 +256,12 @@ p, .box__ghost-container
 <script lang="coffee">
 > @3-/on:On
   @~3/title
+  @3-/doc
 
 + eye
 
 onMount =>
   title notFound$
-  doc = document.documentElement
   pageX = doc.offsetWidth
   pageY = doc.offsetHeight
   mouseY=0

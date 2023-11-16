@@ -7,7 +7,6 @@ sign = (n)=>
   }
   return
 
-
 # 注册
 < signUp = =>
   sign(0)

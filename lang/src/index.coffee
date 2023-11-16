@@ -1,25 +1,5 @@
-htm = document.documentElement
-
-HOOK = new Set
+> @3-/doc
 
 < =>
-  htm.lang
-
-< set = (l)=>
-  htm.lang = l
-  Promise.allSettled [...HOOK].map (f)=>
-    try
-      await f l
-    catch err
-      console.error err
-    return
-
-< onSet = (f)=>
-  HOOK.add f
-  {lang} = htm
-  if lang
-    f lang
-  =>
-    HOOK.delete f
-    return
+  doc.lang
 

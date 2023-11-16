@@ -1,10 +1,14 @@
 <script lang="coffee">
-> @5-/auth/S.js > authConfMeta authName
+> @~3/captcha
+  @5-/auth/S.js > authConfMeta authName
   @~3/wait:Wait
   @~3/edit:Edit
+  @~3/box:Box
   ./onUser.js > User setUser
   ./reset.js
   ./passwd.js:passwdBox
+  ./pbox.js
+  ./SetMail.svelte
 
 # id name
 < li
@@ -21,7 +25,9 @@ onMount =>
   return
 
 setPasswd = =>
-  passwdBox [mail,passwd]
+  if passwd
+    passwdBox [mail,passwd]
+  return 1
 
 setName = =>
   await authName ...li
@@ -30,9 +36,16 @@ setName = =>
     setUser li
   return 1
 
-setMail = =>
-  console.log mail,'mail'
-  return 1
+setMail = (old)=>
+  m = mail.trim()
+  if m.toLowerCase() == old.toLowerCase()
+    mail = m
+    return 1
+  [id] = li
+  if await captcha.authNewMail(id,m) != undefined
+    Box(SetMail, {li:[id,mail,m]})
+    pbox(main).close()
+  return
 
 </script>
 
@@ -54,7 +67,7 @@ include /input.pug
         autocomplete="off"
         placeholder=" "
         required
-        type="text"
+        type="email"
         value&mail
       )
     Edit(@&passwdEdit name:>password val:passwd y:setPasswd)

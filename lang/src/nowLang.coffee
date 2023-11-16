@@ -1,6 +1,4 @@
-#!/usr/bin/env coffee
-
-> ./index.js > set
+> ./set.js
   ~/lib/SITE.js
 
 s = new Set

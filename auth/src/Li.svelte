@@ -8,7 +8,8 @@
   ./Menu.svelte
   ./Conf.svelte
   ./RmMenu.svelte
-  ./onUser.js > setUser exit
+  ./onUser.js > setUser
+  ./exit.js
   ./auth.js > signIn
 
 + li

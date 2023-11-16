@@ -1,5 +1,7 @@
 > @5-/auth/S.js > authMe authExit
-  ~/lib/S.js > setAuth
+  @3-/lang/CODE.js
+  ~/lib/S.js:@ > setAuth
+  @~3/lang/set.js:setLang > onSet:onLangSet
   @3-/cookieget
   @~3/bc/bcHook.js
   @~3/bc/toAll.js
@@ -7,16 +9,47 @@
 
 HOOK = new Set
 
-+ USER
++ USER, LANG
 
 cookieV = =>
   cookieget(document.cookie).V
 
-save = (v)=>
+save = =>
   localStorage.U = JSON.stringify([
-    v or cookieV()
+    cookieV()
     USER
   ])
+  return
+
+onLangSet (lang)=>
+  if not USER
+    return
+  if LANG != lang
+    if LANG != undefined
+      if USER
+        S.authLang()
+    LANG = lang
+  return
+
+_setUser = (user)=>
+  if user
+    LANG = CODE[user[2]]
+    setLang LANG
+    user = user.slice(0, 2)
+  else
+    user = false
+  USER = user
+  HOOK.forEach(
+    (f)=>
+      f(user)
+      return
+  )
+  return
+
+< setUser = (user)=>
+  _setUser user
+  save()
+  toAll 1,user
   return
 
 await do =>
@@ -31,35 +64,10 @@ await do =>
     if U[0] == v
       USER = U[1]
       return
-  USER = (await authMe()) or false
-  save(v)
+  setUser await authMe()
   return
 
-_setUser = (user)=>
-  USER = user
-  HOOK.forEach(
-    (f)=>
-      f(user)
-      return
-  )
-  return
-
-< setUser = (user)=>
-  user = user or false
-  _setUser user
-  save()
-  toAll 1,user
-  return
-
-< exit = (id)=>
-  if id
-    setUser(
-      await authExit(id)
-    )
-  else
-    setUser false
-  return USER
-
+# 广播用户消息
 bcHook(1,_setUser)
 
 export User = => USER

@@ -1,4 +1,4 @@
-> ./index.js > onSet
+> ./set.js > onSet
   @3-/utf8/utf8d.js
 
 < (req)=>

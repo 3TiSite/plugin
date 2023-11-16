@@ -1,5 +1,5 @@
 <script lang="coffee">
-> ./index.js > set
+> ./set.js
   ./nowLang.js
   ~/lib/SITE.js
   @3-/on:On

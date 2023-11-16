@@ -1,6 +1,7 @@
 <script lang="coffee">
 > ../Li.svelte
-  ../onUser.js > exit:_exit User
+  ../exit.js:_exit
+  ../onUser.js > User
   @5-/auth/S.js > authExit
   @~3/box:Box
 
