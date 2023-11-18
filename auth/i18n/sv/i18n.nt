@@ -10,11 +10,11 @@ name: namn
 code: Verifierings kod
 enterCode: Ange verifieringskoden du fick
 checkSpam: Glöm inte att kolla spam
-resend: Klicka här Skicka igen
-notRecv: Ej erhålla ?
 accountExist: Kontot finns redan, logga in direkt
 created: Konto skapat
 exit: Utgång
 userAdmin: Användaradmin
 addAccount: Lägg till konto
 exitAll: Avsluta alla
+nowMail: Nu Mail
+newMail: Nytt mail

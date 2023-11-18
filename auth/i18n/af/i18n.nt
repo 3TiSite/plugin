@@ -10,11 +10,11 @@ name: Naam
 code: Verifikasie kode
 enterCode: Voer verifikasiekode in wat jy ontvang het
 checkSpam: Moenie vergeet om strooipos na te gaan nie
-resend: Klik hier Stuur weer
-notRecv: Nie ontvang nie?
 accountExist: Rekening bestaan ​​reeds, meld direk aan
 created: Rekening geskep
 exit: Verlaat
 userAdmin: Gebruiker Admin
 addAccount: Voeg rekening
 exitAll: Verlaat Alles
+nowMail: Nou Mail
+newMail: Nuwe pos

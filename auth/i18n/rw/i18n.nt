@@ -10,11 +10,11 @@ name: Izina
 code: Kode yo kugenzura
 enterCode: Injira Kode yo Kugenzura wakiriye
 checkSpam: Ntiwibagirwe Kugenzura Spam
-resend: Kanda Hano Ohereza
-notRecv: Ntabwo wakirwa?
 accountExist: Konti isanzweho, Injira muburyo butaziguye
 created: Konti Yakozwe
 exit: Sohoka
 userAdmin: Umukoresha
 addAccount: Ongera Konti
 exitAll: Sohora Byose
+nowMail: Noneho Ibaruwa
+newMail: Ibaruwa nshya

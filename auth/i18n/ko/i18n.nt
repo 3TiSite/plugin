@@ -10,11 +10,11 @@ name: 이름
 code: 확인 코드
 enterCode: 받은 인증 코드를 입력하세요
 checkSpam: 스팸을 확인하는 것을 잊지 마세요
-resend: 여기를 클릭하세요. 재전송
-notRecv: 받지 않다 ?
 accountExist: 계정이 이미 존재합니다. 직접 로그인하세요.
 created: 계정이 생성되었습니다
 exit: 출구
 userAdmin: 사용자 관리자
 addAccount: 계정을 추가
 exitAll: 모두 종료
+nowMail: 나우메일
+newMail: 새 메일

@@ -10,11 +10,11 @@ name: Hming
 code: Verification Code hmanga siam a ni
 enterCode: Verification Code I dawn kha ziak lut rawh
 checkSpam: Spam Check Theihnghilh Suh
-resend: Hetah hian click la Resend rawh
-notRecv: Receive lo ?
 accountExist: Account A awm tawh a, SignIn Direct rawh
 created: Account siam a ni
 exit: Chhuak
 userAdmin: User Admin
 addAccount: Account Add rawh
 exitAll: Exit vek rawh
+nowMail: Tunah chuan Mail
+newMail: Mail thar a awm

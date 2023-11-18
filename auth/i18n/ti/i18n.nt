@@ -10,11 +10,11 @@ name: ሽም
 code: ናይ ምርግጋጽ ኮድ
 enterCode: ዝረኸብካዮ ናይ ምርግጋጽ ኮድ ኣእቱ
 checkSpam: ስፓም ምፍታሽ ኣይትረስዑ
-resend: ኣብዚ ጠውቑ ዳግማይ ምልኣኽ
-notRecv: ኣይቅበልን ?
 accountExist: ኣካውንት ድሮ ኣሎ፣ ብቐጥታ SignIn
 created: ኣካውንት ተፈጢሩ
 exit: መውፅኢ
 userAdmin: ተጠቃሚ ኣድሚን
 addAccount: ኣካውንት ምውሳኽ
 exitAll: ካብ ኩሉ ወጺእካ
+nowMail: ሕጂ መልእኽቲ
+newMail: ሓድሽ ፖስታ

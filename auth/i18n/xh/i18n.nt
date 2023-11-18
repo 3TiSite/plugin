@@ -10,11 +10,11 @@ name: Igama
 code: Gqina ikhowudi
 enterCode: Ngenisa iKhowudi yoQinisekiso oyifumeneyo
 checkSpam: Ungalibali ukujonga i-Spam
-resend: Cofa Apha Thumela kwakhona
-notRecv: Awufumananga ?
 accountExist: Iakhawunti Seyikhona, Ngena Ngqo
 created: Iakhawunti Yenziwe
 exit: Phuma
 userAdmin: Umlawuli womsebenzisi
 addAccount: Yongeza iAkhawunti
 exitAll: Phuma Konke
+nowMail: Ngoku Imeyile
+newMail: Imeyile Entsha

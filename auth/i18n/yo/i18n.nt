@@ -10,11 +10,11 @@ name: Oruko
 code: Kodu afimo
 enterCode: Tẹ koodu ijerisi ti o gba wọle
 checkSpam: Maṣe gbagbe Lati Ṣayẹwo Spam
-resend: Tẹ Nibi Firanṣẹ
-notRecv: Ko Gba?
 accountExist: Iwe akọọlẹ ti wa tẹlẹ, Wọle taara
 created: Account Ṣẹda
 exit: Jade
 userAdmin: Abojuto olumulo
 addAccount: Fi Account
 exitAll: Jade Gbogbo
+nowMail: Bayi Mail
+newMail: New Mail

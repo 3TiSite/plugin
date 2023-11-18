@@ -10,11 +10,11 @@ name: Ism
 code: Tasdiq kodi
 enterCode: Olingan tasdiqlash kodini kiriting
 checkSpam: Spamni tekshirishni unutmang
-resend: Bu yerni bosing Qayta yuborish
-notRecv: Qabul qilmayapsizmi?
 accountExist: Hisob allaqachon mavjud, to'g'ridan-to'g'ri kiring
 created: Hisob yaratildi
 exit: Chiqish
 userAdmin: Foydalanuvchi administratori
 addAccount: Hisob qo'shish
 exitAll: Hammasidan chiqish
+nowMail: Endi pochta
+newMail: Yangi pochta

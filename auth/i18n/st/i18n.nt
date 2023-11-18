@@ -10,11 +10,11 @@ name: Lebitso
 code: Nomoro ea netefatso
 enterCode: Kenya Khouto ea Netefatso eo U e Amohileng
 checkSpam: U se ke Ua Lebala ho Hlahloba Spam
-resend: Tobetsa Mona Resend
-notRecv: Ha o Amohele ?
 accountExist: Akhaonto e se e le Teng, Kena ka ho Otloloha
 created: Akhaonto e Entsoe
 exit: Etsoa
 userAdmin: User Admin
 addAccount: Kenya Account
 exitAll: Tsoa Tsohle
+nowMail: Hona joale Mail
+newMail: Lengolo le Lecha

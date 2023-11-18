@@ -1,6 +1,6 @@
 > @~3/box:Box
-  ./Captcha.svelte
   ~/lib/S.js > req
+  ./Captcha.svelte
 
 + NOW
 
@@ -10,6 +10,7 @@ export captcha = (url, body, bin)=>
       NOW[0].set bin
     return NOW[1]
 
+  + svelte
   p = new Promise (resolve, reject)=>
     + err
     [box, svelte] = Box(
@@ -42,11 +43,11 @@ export captcha = (url, body, bin)=>
       NOW = undefined
       reject err
       return
-    NOW = [
-      svelte
-    ]
     return
-  NOW.push p
+  NOW = [
+    svelte
+    p
+  ]
   return p
 
 < new Proxy(

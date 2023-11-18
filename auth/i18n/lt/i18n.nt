@@ -10,11 +10,11 @@ name: vardas
 code: Patvirtinimo kodas
 enterCode: Įveskite gautą patvirtinimo kodą
 checkSpam: Nepamirškite patikrinti šlamšto
-resend: Spustelėkite čia Siųsti dar kartą
-notRecv: Negaunate?
 accountExist: Paskyra jau yra, prisijunkite tiesiogiai
 created: Paskyra sukurta
 exit: Išeiti
 userAdmin: Vartotojo administratorius
 addAccount: Pridėti paskyrą
 exitAll: Išeiti iš visų
+nowMail: Dabar paštas
+newMail: Naujas paštas

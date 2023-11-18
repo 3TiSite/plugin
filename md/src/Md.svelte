@@ -1,5 +1,5 @@
 <script lang="coffee">
-> ~/lib/fTxtMd.js
+> ~/lib/fMdTxt.js
   @~3/wait:Wait
   @3-/mark
   @~3/title
@@ -15,7 +15,7 @@ onMount =>
     url += 'README'
     if url.startsWith '/'
       url = url.slice(1)
-  md = await fTxtMd url
+  md = await fMdTxt url
   h = mark md
   await tick()
   t = document.title

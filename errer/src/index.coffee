@@ -59,4 +59,4 @@ EV_TAG = ['INPUT','TEXTAREA']
       focus(form)
   finally
     form.classList.remove ING
-  return
+  return null

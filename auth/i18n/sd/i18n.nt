@@ -10,11 +10,11 @@ name: نالو
 code: تصديق ڪوڊ
 enterCode: توهان کي مليل تصديقي ڪوڊ داخل ڪريو
 checkSpam: اسپام چيڪ ڪرڻ نه وساريو
-resend: هتي ڪلڪ ڪريو ٻيهر موڪليو
-notRecv: وصول نه ڪيو؟
 accountExist: اڪائونٽ اڳ ۾ ئي موجود آهي، سڌو سائن ان ڪريو
 created: اڪائونٽ ٺاهيو ويو
 exit: نڪرڻ
 userAdmin: استعمال ڪندڙ منتظم
 addAccount: اڪائونٽ شامل ڪريو
 exitAll: سڀ نڪرڻ
+nowMail: هاڻي ميل
+newMail: نئون ميل

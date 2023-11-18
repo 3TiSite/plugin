@@ -10,11 +10,11 @@ name: Nome
 code: Código de verificación
 enterCode: Introduce o código de verificación que recibiches
 checkSpam: Non esquezas comprobar o spam
-resend: Fai clic aquí Reenviar
-notRecv: Non recibes?
 accountExist: A conta xa existe, inicia sesión directamente
 created: Conta creada
 exit: Saír
 userAdmin: Administrador de Usuarios
 addAccount: Engadir conta
 exitAll: Saír de todos
+nowMail: Agora Correo
+newMail: Correo novo

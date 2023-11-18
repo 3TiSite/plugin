@@ -1,8 +1,7 @@
 <script lang="coffee">
 > ./Code.svelte
   ./onUser.js > setUser
-  ./sign.js
-  @5-/auth/S.js > authSignUp
+  @5-/auth/S.js > auth authSignUp
   @~3/box/confirm.js
   ~/lib/I18N.js > _$created
 
@@ -11,7 +10,7 @@
 name = ''
 
 resend = =>
-  sign 0, ...li
+  auth 0, ...li
 
 done = (uid)=>
   setUser [uid, name]

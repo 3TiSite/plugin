@@ -10,11 +10,11 @@ name: שֵׁם
 code: קוד אימות
 enterCode: הזן את קוד האימות שקיבלת
 checkSpam: אל תשכח לבדוק דואר זבל
-resend: לחץ כאן שלח שוב
-notRecv: לא לקבל ?
 accountExist: החשבון כבר קיים, היכנס ישירות
 created: חשבון נוצר
 exit: יְצִיאָה
 userAdmin: מנהל משתמש
 addAccount: הוסף חשבון
 exitAll: צא מכל
+nowMail: עכשיו דואר
+newMail: דואר חדש

@@ -10,11 +10,11 @@ name: Enw
 code: Cod Dilysu
 enterCode: Rhowch y Cod Dilysu a Dderbyniwyd gennych
 checkSpam: Peidiwch ag Anghofio Gwirio Sbam
-resend: Cliciwch Yma Ail-anfon
-notRecv: Ddim yn Derbyn ?
 accountExist: Mae'r Cyfrif Yn Bodoli'n Eisoes, Mewngofnodwch yn Uniongyrchol
 created: Crëwyd y Cyfrif
 exit: Ymadael
 userAdmin: Gweinyddwr Defnyddwyr
 addAccount: Ychwanegu Cyfrif
 exitAll: Gadael Pawb
+nowMail: Nawr Post
+newMail: Post Newydd

@@ -10,11 +10,11 @@ name: नां
 code: सत्यापन कोड
 enterCode: सत्यापन कोड दर्ज करो जेह् ड़ा तुसें गी हासल होआ ऐ
 checkSpam: स्पैम चेक करना मत भूलना
-resend: इत्थें क्लिक करो दुबारा भेजो
-notRecv: नहीं पाना ?
 accountExist: खाता पैह् ले थमां गै मौजूद ऐ, सीधे साइनइन करो
 created: खाता बनाया गया
 exit: बाहर
 userAdmin: यूजर एडमिन
 addAccount: खाता जोड़ो
 exitAll: सब से बाहर निकलें
+nowMail: अब मेल
+newMail: नई मेल

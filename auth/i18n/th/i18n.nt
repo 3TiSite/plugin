@@ -10,11 +10,11 @@ name: ชื่อ
 code: รหัสยืนยัน
 enterCode: กรอกรหัสยืนยันที่คุณได้รับ
 checkSpam: อย่าลืมตรวจสอบสแปม
-resend: คลิกที่นี่ส่งอีกครั้ง
-notRecv: ไม่ได้รับ ?
 accountExist: มีบัญชีอยู่แล้ว ลงชื่อเข้าใช้โดยตรง
 created: สร้างบัญชีแล้ว
 exit: ออก
 userAdmin: ผู้ดูแลระบบผู้ใช้
 addAccount: เพิ่มบัญชี
 exitAll: ออกทั้งหมด
+nowMail: ตอนนี้เมล
+newMail: จดหมายใหม่

@@ -10,11 +10,11 @@ name: Nazwa
 code: Kod weryfikacyjny
 enterCode: Wprowadź otrzymany kod weryfikacyjny
 checkSpam: Nie zapomnij sprawdzić spamu
-resend: Kliknij tutaj Wyślij ponownie
-notRecv: Nie otrzymać ?
 accountExist: Konto już istnieje. Zaloguj się bezpośrednio
 created: Konto utworzone
 exit: Wyjście
 userAdmin: Administrator użytkowników
 addAccount: Dodaj konto
 exitAll: Wyjdź ze wszystkich
+nowMail: Teraz Poczta
+newMail: Nowa poczta

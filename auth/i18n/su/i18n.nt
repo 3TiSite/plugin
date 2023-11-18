@@ -10,11 +10,11 @@ name: Ngaran
 code: Kodeu vérifikasi
 enterCode: Lebetkeun Kodeu Verifikasi Anu Ditampi
 checkSpam: Tong Poho Mariksa Spam
-resend: Klik di dieu Kirim deui
-notRecv: Teu Narima?
 accountExist: Akun Geus Aya, Asup Langsung
 created: Akun Dijieun
 exit: Kaluar
 userAdmin: Pamaké Admin
 addAccount: Tambahkeun Akun
 exitAll: Kaluar Sadaya
+nowMail: Ayeuna Mail
+newMail: Surat Anyar

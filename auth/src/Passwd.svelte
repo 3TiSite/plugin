@@ -1,21 +1,19 @@
 <script lang="coffee">
 > ./Code.svelte
   ./onUser.js > setUser
-  @5-/auth/S.js > authPasswd:submit
-  @~3/box/confirm.js
-  @~3/captcha
+  @5-/auth/S.js > authPasswd:submit authReset
+  @~3/box/done.js:boxDone
   ~/lib/I18N.js > _$setDone
 
 < li
 
 
 resend = =>
-  captcha.authReset ...li
+  authReset ...li
 
 done = (user)=>
   setUser user
-  confirm ->
-    @[_$setDone]
+  boxDone()
   return
 
 </script>

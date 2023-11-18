@@ -10,11 +10,11 @@ name: Naam
 code: Verificatie code
 enterCode: Voer de verificatiecode in die u heeft ontvangen
 checkSpam: Vergeet niet om spam te controleren
-resend: Klik hier Opnieuw verzenden
-notRecv: Niet ontvangen ?
 accountExist: Account bestaat al, meld u direct aan
 created: Account aangemaakt
 exit: Uitgang
 userAdmin: Gebruikersbeheerder
 addAccount: Account toevoegen
 exitAll: Sluit alles af
+nowMail: Nu mail
+newMail: Nieuwe post

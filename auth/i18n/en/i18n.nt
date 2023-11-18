@@ -10,11 +10,11 @@ name: Name
 code: Verification Code
 enterCode: Enter Verification Code You Received
 checkSpam: Don't Forget To Check Spam
-notRecv: Not Receive ?
-resend: Click Here Resend
 accountExist: Account Already Exist, SignIn Directly
 created: Account Created
 exit: Exit
 userAdmin: User Admin
 addAccount: Add Account
 exitAll: Exit All
+nowMail: Now Mail
+newMail: New Mail

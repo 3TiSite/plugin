@@ -1,25 +1,23 @@
 <script lang="coffee">
 > @~3/errer
   ./passwd.js
+  @~3/box/pbox.js
 
 < account
 
-+ form, input_li
++ form
 
 submit = =>
-  li = input_li.map (i)=>i.value
-  if undefined != await errer(
+  li = [
+    ...form.getElementsByTagName 'input'
+  ].map (i)=>i.value
+  if null != await errer(
     form
     passwd li
   )
-    form.parentNode.close()
+    pbox(form).close()
   return
 
-onMount =>
-  input_li = [...form.getElementsByTagName 'input']
-  input_li[0].focus()
-  input_li[0].select()
-  return
 </script>
 
 <template lang="pug">

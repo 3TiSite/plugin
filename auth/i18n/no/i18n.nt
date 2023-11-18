@@ -10,11 +10,11 @@ name: Navn
 code: Bekreftelseskode
 enterCode: Skriv inn bekreftelseskoden du har mottatt
 checkSpam: Ikke glem å sjekke spam
-resend: Klikk her Send på nytt
-notRecv: Ikke motta ?
 accountExist: Konto eksisterer allerede, logg på direkte
 created: Konto opprettet
 exit: Exit
 userAdmin: Bruker Admin
 addAccount: Legg til konto
 exitAll: Avslutt alle
+nowMail: Nå Mail
+newMail: Ny post

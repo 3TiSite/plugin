@@ -10,11 +10,11 @@ name: ຊື່
 code: ລະຫັດຢືນຢັນ
 enterCode: ໃສ່ລະຫັດຢືນຢັນທີ່ທ່ານໄດ້ຮັບ
 checkSpam: ຢ່າລືມກວດເບິ່ງ Spam
-resend: ກົດທີ່ນີ້ Resend
-notRecv: ບໍ່​ໄດ້​ຮັບ​?
 accountExist: ບັນຊີມີຢູ່ແລ້ວ, ເຂົ້າສູ່ລະບົບໂດຍກົງ
 created: ສ້າງບັນຊີແລ້ວ
 exit: ອອກໄປ
 userAdmin: ຜູ້ເບິ່ງແຍງຜູ້ໃຊ້
 addAccount: ເພີ່ມ​ບັນ​ຊີ
 exitAll: ອອກຈາກທັງໝົດ
+nowMail: ດຽວນີ້ອີເມລ
+newMail: ຈົດໝາຍໃໝ່

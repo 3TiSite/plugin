@@ -9,8 +9,9 @@ onMount =>
 
 <template lang="pug">
 u
-  label >mail
-  a(href:) {mail}
+  label
+    slot
+  a(href: tabindex="-1") {mail}
 </template>
 
 <style lang="stylus">

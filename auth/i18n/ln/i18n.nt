@@ -10,11 +10,11 @@ name: Nkombo
 code: Code ya vérification
 enterCode: Tyá Code ya Vérification oyo Ozwi
 checkSpam: Kobosana Te Ko Vérifier Ba Spam
-resend: Finá Awa Tinda lisusu
-notRecv: Kozwa Te ?
 accountExist: Compte Ezali Déjà, SignIn Directement
 created: Compte Esalemi
 exit: Kobima
 userAdmin: Admin ya Mosaleli
 addAccount: Bakisa Compte
 exitAll: Bima na Nyonso
+nowMail: Sikoyo Mail
+newMail: Mail ya sika

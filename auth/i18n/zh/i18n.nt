@@ -10,11 +10,11 @@ name: 名称
 code: 验证码
 enterCode: 请输入您收到的验证码
 checkSpam: 不要忘记检查垃圾邮件
-resend: 点此重发
-notRecv: 未收到?
 accountExist: 账户已存在，直接登录
 created: 帐户创建成功
 exit: 登出
 userAdmin: 用户管理
 addAccount: 新增帐户
 exitAll: 全部登出
+nowMail: 现邮箱
+newMail: 新邮箱

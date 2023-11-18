@@ -10,11 +10,11 @@ name: Nimi
 code: Vahvistuskoodi
 enterCode: Anna saamasi vahvistuskoodi
 checkSpam: Älä unohda tarkistaa roskapostia
-resend: Napsauta tästä Lähetä uudelleen
-notRecv: Etkö vastaanota?
 accountExist: Tili on jo olemassa, kirjaudu sisään suoraan
 created: Tili luotu
 exit: Poistu
 userAdmin: Käyttäjän järjestelmänvalvoja
 addAccount: Lisää tili
 exitAll: Poistu kaikista
+nowMail: Nyt Mail
+newMail: Uusi posti

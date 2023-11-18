@@ -1,13 +1,12 @@
 <script lang="coffee">
-> @~3/captcha
-  @5-/auth/S.js > authConfMeta authName
+> @5-/auth/S.js > authConfMeta authName authNewMail
   @~3/wait:Wait
   @~3/edit:Edit
-  @~3/box:Box
+  @~3/box/Focus.js:Box
   ./onUser.js > User setUser
   ./reset.js
   ./passwd.js:passwdBox
-  ./pbox.js
+  @~3/box/pbox.js
   ./SetMail.svelte
 
 # id name
@@ -42,9 +41,9 @@ setMail = (old)=>
     mail = m
     return 1
   [id] = li
-  if await captcha.authNewMail(id,m) != undefined
-    Box(SetMail, {li:[id,mail,m]})
-    pbox(main).close()
+  old_mail = await authNewMail(id,m)
+  Box(SetMail, {li:[old_mail,id,m]})
+  pbox(main).close()
   return
 
 </script>

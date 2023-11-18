@@ -10,11 +10,11 @@ name: Ady
 code: Barlag kody
 enterCode: Alnan tassyklama kody giriziň
 checkSpam: Spamy barlamagy ýatdan çykarmaň
-resend: Bu ýere basyň
-notRecv: Almaýarsyňyzmy?
 accountExist: Hasap eýýäm bar, göni giriň
 created: Hasap döredildi
 exit: Çyk
 userAdmin: Ulanyjy Admin
 addAccount: Hasap goşuň
 exitAll: Hemmesinden çykyň
+nowMail: Indi poçta iber
+newMail: Täze poçta

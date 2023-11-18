@@ -1,14 +1,15 @@
 <script lang="coffee">
-> @~3/boxmd
+> ./SignUp.svelte
+  ./onUser.js > setUser
+  ./reset.js
+  @5-/auth/S.js > auth
+  @~3/box/Focus.js:Box
+  @~3/boxmd
   @~3/errer:@ > clear
   @~3/focus
-  @~3/box:Box
-  ./reset.js
   ~/lib/SITE.js
-  ./onUser.js > setUser
-  ~/lib/fTxtMd.js
-  ./SignUp.svelte
-  ./sign.js
+  ~/lib/fMdTxt.js
+  @~3/box/pbox.js
 
 < n = 1
 < account = localStorage.account or ''
@@ -33,7 +34,6 @@ ua = boxmd.bind(null,'UA')
 onMount =>
   input_li = [...form.getElementsByTagName 'input'].slice(0,2)
   input_li[0].value = account
-  focus form
   button_li = [...form.getElementsByTagName 'button'].slice(1,3)
   for i from button_li
     i.onclick = (e)->
@@ -59,9 +59,8 @@ submit = =>
   if not argee
     return
   li = input_li.map((i)=>i.value)
-  user = await errer(form,sign(n,...li))
-  if user != undefined
-    form.parentNode.close()
+  user = await errer(form,auth(n,...li))
+  if user != null
     if user
       localStorage.account = input_li[0].value
       setUser user
@@ -69,6 +68,7 @@ submit = =>
       Box SignUp, {
         li
       }
+    pbox(form).close()
   return
 </script>
 

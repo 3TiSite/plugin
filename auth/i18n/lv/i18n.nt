@@ -10,11 +10,11 @@ name: Vārds
 code: Verifikācijas kods
 enterCode: Ievadiet saņemto verifikācijas kodu
 checkSpam: Neaizmirstiet pārbaudīt surogātpastu
-resend: Noklikšķiniet šeit Sūtīt atkārtoti
-notRecv: Vai nesaņemat?
 accountExist: Konts jau pastāv, pierakstieties tieši
 created: Konts izveidots
 exit: Izeja
 userAdmin: Lietotāja administrators
 addAccount: Pievienot kontu
 exitAll: Iziet no visiem
+nowMail: Tagad pasts
+newMail: Jauns pasts

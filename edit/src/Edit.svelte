@@ -13,7 +13,7 @@ Y = =>
   if await errer(
     form
     y bak, val
-  ) != undefined
+  ) != null
     show = 0
   return
 

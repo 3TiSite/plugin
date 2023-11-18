@@ -10,11 +10,11 @@ name: Nomo
 code: Konfirmkodo
 enterCode: Enigu Konfirmkodon, kiun Vi Ricevis
 checkSpam: Ne Forgesu Kontroli Spamon
-resend: Klaku Ĉi tie Resendu
-notRecv: Ne Ricevi?
 accountExist: Konto Jam Ekzistas, Ensalutu Rekte
 created: Konto Kreita
 exit: Eliro
 userAdmin: Uzanto Admin
 addAccount: Aldonu konto
 exitAll: Eliru Ĉion
+nowMail: Nun Poŝto
+newMail: Nova Poŝto

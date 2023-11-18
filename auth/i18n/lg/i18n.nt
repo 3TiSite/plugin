@@ -10,11 +10,11 @@ name: Erinnya
 code: Koodi y’okukakasa
 enterCode: Yingiza Koodi y'okukakasa gy'ofunye
 checkSpam: Tewerabira Okukebera Spam
-resend: Nyiga Wano Ddamu Okuweereza
-notRecv: Si Kufuna ?
 accountExist: Akawunti Ebaddewo Dda, Yingira Butereevu
 created: Akawunti Ekoleddwa
 exit: Fuluma
 userAdmin: Omuddukanya Omukozesa
 addAccount: Yongera ku Akawunti
 exitAll: Fuluma Byonna
+nowMail: Kati Mail
+newMail: Ebbaluwa Empya

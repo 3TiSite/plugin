@@ -10,11 +10,11 @@ name: Non
 code: Kòd Verifikasyon
 enterCode: Antre Kòd Verifikasyon Ou Resevwa
 checkSpam: Pa Bliye Tcheke Spam
-resend: Klike la a Revoye
-notRecv: Pa resevwa?
 accountExist: Kont deja egziste, konekte dirèkteman
 created: Kont Kreye
 exit: Sòti
 userAdmin: Admin itilizatè
 addAccount: Ajoute kont
 exitAll: Sòti Tout
+nowMail: Koulye a, Mail
+newMail: Nouvo Mail

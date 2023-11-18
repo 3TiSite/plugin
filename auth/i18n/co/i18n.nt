@@ -10,11 +10,11 @@ name: Nome
 code: Codice di verificazione
 enterCode: Inserite u codice di verificazione chì avete ricevutu
 checkSpam: Ùn vi scurdate di verificà Spam
-resend: Cliccate quì Resend
-notRecv: Ùn riceve micca ?
 accountExist: U contu esiste digià, accede direttamente
 created: Cuntu Creatu
 exit: Esci
 userAdmin: User Admin
 addAccount: Add Account
 exitAll: Esci da tuttu
+nowMail: Avà Mail
+newMail: New Mail

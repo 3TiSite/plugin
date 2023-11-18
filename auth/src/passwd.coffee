@@ -1,15 +1,14 @@
-> @~3/captcha
-  @~3/box:Box
+> @~3/box/Focus.js:Box
+  @5-/auth/S.js > authReset
   ./Passwd.svelte
 
 # [mail passwd]
 < (li)=>
-  r = await captcha.authReset ...li
-  if r != undefined
-    Box(
-      Passwd
-      {
-        li
-      }
-    )
-  return r
+  await authReset ...li
+  Box(
+    Passwd
+    {
+      li
+    }
+  )
+  return

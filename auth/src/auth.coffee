@@ -1,8 +1,8 @@
-> @~3/box:Box
+> @~3/box/Focus.js:Box
   ./Auth.svelte
 
 sign = (n)=>
-  Box Auth, {
+  [box] = Box Auth, {
     n
   }
   return

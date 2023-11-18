@@ -10,11 +10,11 @@ name: Anarana
 code: Kaody fanamarinana
 enterCode: Ampidiro ny kaody fanamarinana azonao
 checkSpam: Aza adino ny mijery Spam
-resend: Tsindrio eto Alefaso indray
-notRecv: Tsy mandray ?
 accountExist: Efa misy ny kaonty, midira mivantana
 created: Kaonty noforonina
 exit: Fivoahana
 userAdmin: Mpampiasa Admin
 addAccount: Ampio kaonty
 exitAll: Mivoaha daholo
+nowMail: Mail izao
+newMail: Mail vaovao

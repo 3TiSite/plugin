@@ -10,11 +10,11 @@ name: Nome
 code: Codice di verifica
 enterCode: Inserisci il codice di verifica che hai ricevuto
 checkSpam: Non dimenticare di controllare lo spam
-resend: Clicca qui Reinvia
-notRecv: Non ricevere ?
 accountExist: L'account esiste già, accedi direttamente
 created: Account creato
 exit: Uscita
 userAdmin: Amministratore utente
 addAccount: Aggiungi account
 exitAll: Esci tutto
+nowMail: Ora posta
+newMail: Nuova posta

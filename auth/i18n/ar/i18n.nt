@@ -10,11 +10,11 @@ name: اسم
 code: رمز التحقق
 enterCode: أدخل رمز التحقق الذي تلقيته
 checkSpam: لا تنس التحقق من البريد العشوائي
-resend: انقر هنا إعادة الإرسال
-notRecv: لا تتلقى؟
 accountExist: الحساب موجود بالفعل، قم بتسجيل الدخول مباشرة
 created: تم إنشاء الحساب
 exit: مخرج
 userAdmin: مشرف المستخدم
 addAccount: إضافة حساب
 exitAll: الخروج من الكل
+nowMail: الآن البريد
+newMail: بريد جديد

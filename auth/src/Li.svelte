@@ -1,16 +1,17 @@
 <script lang="coffee">
 > @5-/auth/S.js > authLi authSet authRm authExitAll
-  ./pbox.js
-  @~3/menu
-  @~3/box:Box
-  @~3/wait:Wait
   ./Auth.svelte
-  ./Menu.svelte
   ./Conf.svelte
+  ./Menu.svelte
   ./RmMenu.svelte
-  ./onUser.js > setUser
-  ./exit.js
   ./auth.js > signIn
+  ./exit.js
+  ./onUser.js > setUser
+  @~3/box/pbox.js
+  @~3/box/Focus.js
+  @~3/box:Box
+  @~3/menu
+  @~3/wait:Wait
 
 + li
 
@@ -25,7 +26,7 @@ set = (id)->
   for [_id,_,account,e] from li
     if e
       if id == _id
-        Box(Auth,{account})
+        Focus(Auth,{account})
         box.close()
         return
     else
@@ -46,7 +47,7 @@ rmMenu = menu(
     rm:aRel (id)=>
       t = li
       li = 0
-      await authRm id
+      setUser await authRm id
       for i,p in t
         if i[0] == id
           t.splice(p,1)
@@ -112,7 +113,7 @@ exitAll = ->
   return
 
 add = ->
-  Box(Auth, {account:''})
+  Focus(Auth, {account:''})
   pbox(@).close()
   return
 

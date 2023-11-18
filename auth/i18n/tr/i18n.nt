@@ -10,11 +10,11 @@ name: İsim
 code: Doğrulama kodu
 enterCode: Aldığınız Doğrulama Kodunu Girin
 checkSpam: Spam'ı Kontrol Etmeyi Unutmayın
-resend: Buraya tıklayın Yeniden Gönder
-notRecv: Alınmıyor mu?
 accountExist: Hesap Zaten Mevcut, Doğrudan Oturum Açın
 created: Hesap oluşturuldu
 exit: çıkış
 userAdmin: Kullanıcı Yöneticisi
 addAccount: Hesap eklemek
 exitAll: Tümünden Çık
+nowMail: Şimdi Posta
+newMail: Yeni Posta

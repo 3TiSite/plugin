@@ -10,11 +10,11 @@ name: Lub npe
 code: Pov thawj Code
 enterCode: Nkag mus rau Verification Code koj tau txais
 checkSpam: Tsis txhob hnov ​​qab mus xyuas Spam
-resend: Nyem qhov no Resend
-notRecv: Tsis Txais?
 accountExist: Account Twb ​​muaj lawm, SignIn Directly
 created: Tsim Tus Account
 exit: Tawm
 userAdmin: Tus neeg siv Admin
 addAccount: Ntxiv Account
 exitAll: Tawm Tag Nrho
+nowMail: Tam sim no Xa ntawv
+newMail: Xa ntawv tshiab

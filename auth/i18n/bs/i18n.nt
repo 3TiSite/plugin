@@ -10,11 +10,11 @@ name: Ime
 code: Verifikacijski kod
 enterCode: Unesite verifikacioni kod koji ste primili
 checkSpam: Ne zaboravite provjeriti neželjenu poštu
-resend: Kliknite ovdje Ponovo pošalji
-notRecv: Not Receive ?
 accountExist: Račun već postoji, prijavite se direktno
 created: Račun kreiran
 exit: Izlaz
 userAdmin: User Admin
 addAccount: Dodaj račun
 exitAll: Izađi iz svih
+nowMail: Sada Mail
+newMail: Nova pošta

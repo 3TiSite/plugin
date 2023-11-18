@@ -10,11 +10,11 @@ name: Navn
 code: Verifikationskode
 enterCode: Indtast bekræftelseskode, du har modtaget
 checkSpam: Glem ikke at tjekke spam
-resend: Klik her Send igen
-notRecv: ikke modtage?
 accountExist: Konto eksisterer allerede, log ind direkte
 created: Konto oprettet
 exit: Afslut
 userAdmin: Bruger Admin
 addAccount: Tilføj konto
 exitAll: Afslut alle
+nowMail: Nu Mail
+newMail: Ny mail

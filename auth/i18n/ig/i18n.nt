@@ -10,11 +10,11 @@ name: Aha
 code: Koodu nyocha
 enterCode: Tinye koodu nkwenye ị nwetara
 checkSpam: Echefula ịlele spam
-resend: Pịa Ebe a zipu
-notRecv: Anaghị anabata?
 accountExist: Akaụntụ adịlarị, Banye ozugbo
 created: Emepụtara Akaụntụ
 exit: Ụzọ ọpụpụ
 userAdmin: Onye ọrụ nchịkwa
 addAccount: Tinye Akaụntụ
 exitAll: Wepụ niile
+nowMail: Ugbu a Mail
+newMail: Ozi ọhụrụ

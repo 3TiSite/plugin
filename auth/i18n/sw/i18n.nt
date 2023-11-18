@@ -10,11 +10,11 @@ name: Jina
 code: Nambari ya Uthibitishaji
 enterCode: Weka Nambari ya Uthibitishaji Uliyopokea
 checkSpam: Usisahau Kuangalia Spam
-resend: Bofya Hapa Tuma Upya
-notRecv: Hujapokea?
 accountExist: Akaunti Tayari Ipo, Ingia Moja kwa Moja
 created: Akaunti Imeundwa
 exit: Utgång
 userAdmin: Msimamizi wa Mtumiaji
 addAccount: Ongeza Akaunti
 exitAll: Toka Yote
+nowMail: Sasa Barua
+newMail: Barua Mpya

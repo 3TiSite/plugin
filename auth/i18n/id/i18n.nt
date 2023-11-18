@@ -10,11 +10,11 @@ name: Nama
 code: Kode verifikasi
 enterCode: Masukkan Kode Verifikasi yang Anda Terima
 checkSpam: Jangan Lupa Cek Spam
-resend: Klik Disini Kirim Ulang
-notRecv: Tidak menerima ?
 accountExist: Akun Sudah Ada, Langsung Masuk
 created: Akun telah dibuat
 exit: KELUAR
 userAdmin: Admin Pengguna
 addAccount: Menambahkan akun
 exitAll: Keluar dari Semua
+nowMail: Sekarang Surat
+newMail: Surat Baru

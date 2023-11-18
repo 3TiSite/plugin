@@ -33,8 +33,10 @@ onLangSet (lang)=>
 
 _setUser = (user)=>
   if user
-    LANG = CODE[user[2]]
-    setLang LANG
+    if user.length > 2
+      lang = CODE[user[2]]
+      if lang != LANG
+        setLang LANG = lang
     user = user.slice(0, 2)
   else
     user = false

@@ -10,11 +10,11 @@ name: Nagan
 code: Kodigo ti Beripikasion
 enterCode: Iserrek ti Verification Code nga Naawatmo
 checkSpam: Dimo Lipatan ti Mangsukimat iti Spam
-resend: I-click Ditoy Ipatulod manen
-notRecv: Saan nga Umawat ?
 accountExist: Addadan ti Kuenta, Direkta nga Ag-signIn
 created: Naaramid ti Kuenta
 exit: Rumuar
 userAdmin: Admin ti Agus-usar
 addAccount: Add Account
 exitAll: Rummuar iti Amin
+nowMail: Ita, Mail
+newMail: Baro a Koreo

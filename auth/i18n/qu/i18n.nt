@@ -10,11 +10,11 @@ name: Suti
 code: Chiqaqchay Código
 enterCode: Chaskisqayki Chiqaqchay Código nisqa qillqay
 checkSpam: Ama Qunqaychu Spam nisqa qhawayta
-resend: Kaypi ñit'iy Wakmanta apachiy
-notRecv: Mana Chaskiychu ?
 accountExist: Cuenta Ñam kachkan, Chiqamanta Yaykuy
 created: Cuenta Ruwasqa
 exit: Lluqsina
 userAdmin: Usuario Admin
 addAccount: Cuenta yapay
 exitAll: Llapamanta lluqsiy
+nowMail: Kunanqa Correo
+newMail: Musuq Correo

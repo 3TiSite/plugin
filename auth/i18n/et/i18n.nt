@@ -10,11 +10,11 @@ name: Nimi
 code: Kinnituskood
 enterCode: Sisestage saadud kinnituskood
 checkSpam: Ärge unustage rämpsposti kontrollida
-resend: Klõpsake siin Saada uuesti
-notRecv: Ei saa kätte?
 accountExist: Konto on juba olemas, logige otse sisse
 created: Konto loodud
 exit: Välju
 userAdmin: Kasutaja administraator
 addAccount: Lisada konto
 exitAll: Välju kõigest
+nowMail: Nüüd Mail
+newMail: Uus kiri

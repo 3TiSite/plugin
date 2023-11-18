@@ -1,50 +1,34 @@
 <script lang="coffee">
 > ~/lib/SITE.js
   @~3/errer
-  @~3/focus
   @~3/input_mail_a
+  @~3/box/pbox.js
+  @~3/resend:Resend
+  @~3/resend/sendFocus.js
 
-< li
-< submit
-< resend
 < done
+< li
+< resend
+< submit
 
-+ form, rs, timeout
-
-code = ''
++ form, sender
 
 send = =>
-  await resend()
-  rs = undefined
-  timer()
+  sendFocus resend, form
   return
 
-timer = =>
-  timeout = setTimeout(
-    =>
-      rs = 1
-      return
-    3e4
-  )
-  return
-
-onMount =>
-  timer()
-  focus form
-  return
+code = ''
 
 s = =>
   r = await errer form, submit(
     ... li
     code
   )
-  if r != undefined
+  if r != null
     done(r)
-    form.parentNode.close()
-
-  else if not rs
-    clearTimeout timeout
-    rs = 2
+    pbox(form).close()
+  else
+    sender.$set {state:2}
   return
 </script>
 
@@ -52,7 +36,7 @@ s = =>
 include /input.pug
 form(@&form @submit|preventDefault=s)
   h1 {SITE.host}
-  InputMailA(mail:li[0])
+  InputMailA(mail:li[0]) >mail
   b >enterCode
   +input(">code")#code(
     autocomplete="off"
@@ -63,11 +47,7 @@ form(@&form @submit|preventDefault=s)
   )
   i
     i >checkSpam
-    +if rs
-      i
-        +if rs == 1
-          i >notRecv
-        a(@click=send) >resend
+    Resend(@&sender send:send)
   slot
 </template>
 
@@ -99,20 +79,7 @@ form
     margin -16px 16px 16px
 
     &>i
-      display flex
-      flex-wrap wrap
-      justify-content flex-end
-
-      &:first-child
-        margin-right 16px
-        white-space nowrap
-
-      font-weight bold
-
-      &>a
-        border-bottom 2px solid
-        margin-left 6px
-        padding-bottom 3px
-        white-space nowrap
+      margin-right 16px
+      white-space nowrap
 </style>
 

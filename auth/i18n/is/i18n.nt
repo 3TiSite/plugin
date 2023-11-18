@@ -10,11 +10,11 @@ name: Nafn
 code: Staðfestingarkóði
 enterCode: Sláðu inn staðfestingarkóða sem þú fékkst
 checkSpam: Ekki gleyma að athuga ruslpóst
-resend: Smelltu hér Senda aftur
-notRecv: Ekki tekið á móti?
 accountExist: Reikningur er þegar til, skráðu þig inn beint
 created: Reikningur búinn til
 exit: Hætta
 userAdmin: Notendastjóri
 addAccount: Bæta við aðgangi
 exitAll: Hætta allt
+nowMail: Nú Mail
+newMail: Nýr póstur

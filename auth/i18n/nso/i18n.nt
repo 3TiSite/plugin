@@ -10,11 +10,11 @@ name: Leina
 code: Khoutu ya Netefatšo
 enterCode: Tsenya Khoutu ya Netefatšo yeo o e Amogetšego
 checkSpam: Se Lebale Go Lekola Spam
-resend: Tobetsa Mona Romela gape
-notRecv: Ga e Amogele ?
 accountExist: Akhaonto e šetše e le gona, Tsena ka go lebanya
 created: Akhaonto e hlotšwe
 exit: Tšwa
 userAdmin: Molaodi wa Modiriši
 addAccount: Oketša Akhaonto
 exitAll: Tšwa ka Moka
+nowMail: Bjale Mail
+newMail: Poso e Mpsha

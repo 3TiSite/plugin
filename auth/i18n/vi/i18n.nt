@@ -10,11 +10,11 @@ name: Tên
 code: Mã xác nhận
 enterCode: Nhập mã xác minh bạn nhận được
 checkSpam: Đừng quên kiểm tra thư rác
-resend: Bấm vào đây Gửi lại
-notRecv: Không nhận được?
 accountExist: Tài khoản đã tồn tại, đăng nhập trực tiếp
 created: Tài khoản đã được tạo
 exit: Lối ra
 userAdmin: Quản trị viên người dùng
 addAccount: Thêm tài khoản
 exitAll: Thoát tất cả
+nowMail: Gửi thư ngay bây giờ
+newMail: Thư điện tử mới

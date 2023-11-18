@@ -1,9 +1,16 @@
 < (form)=>
   + first
   for i from form.getElementsByTagName 'input'
-    if ['text','password'].includes i.type
-      if not i.value.trim()
-        i.value = ''
+    if [
+      'text'
+      'password'
+      'email'
+    ].includes i.type
+      if i.disabled
+        continue
+      v = i.value.trim()
+      if not v
+        i.value = v
         i.focus()
         return
       if not first

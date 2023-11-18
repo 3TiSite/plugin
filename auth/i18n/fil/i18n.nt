@@ -10,11 +10,11 @@ name: Pangalan
 code: Verification Code
 enterCode: Ilagay ang Verification Code na Natanggap Mo
 checkSpam: Huwag Kalimutang Suriin ang Spam
-resend: Mag-click Dito Ipadala muli
-notRecv: Hindi natanggap ?
 accountExist: Umiiral na ang Account, Direktang Mag-sign In
 created: Nakagawa na ng account
 exit: Lumabas
 userAdmin: User Admin
 addAccount: Magdagdag ng account
 exitAll: Lumabas Lahat
+nowMail: Ngayon Mail
+newMail: Bagong Mail
