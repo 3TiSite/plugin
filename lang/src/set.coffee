@@ -1,9 +1,9 @@
-> @3-/doc
+> @2-/doc/HTM.js
 
 HOOK = new Set
 
 < (l)=>
-  doc.lang = l
+  HTM.lang = l
   Promise.allSettled [...HOOK].map (f)=>
     try
       await f l
@@ -13,7 +13,7 @@ HOOK = new Set
 
 < onSet = (f)=>
   HOOK.add f
-  {lang} = doc
+  {lang} = HTM
   if lang
     f lang
   =>

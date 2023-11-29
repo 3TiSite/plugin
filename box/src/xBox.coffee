@@ -1,5 +1,5 @@
 > @3-/on:On
-  @~3/new:New
+  @2-/new:New
   ./Box.js
 
 < xClose = (dialog)=>

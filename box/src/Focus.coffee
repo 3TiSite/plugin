@@ -1,5 +1,5 @@
 > ./index.js:Box
-  @~3/focus
+  @2-/focus
 
 < (svelte, props)=>
   r = Box(svelte, props)

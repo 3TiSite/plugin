@@ -1,6 +1,6 @@
 <script lang="coffee">
 > @5-/auth/S.js > authSetMail authNewMail
-  @~3/errer
+  @2-/errer
   @~3/box/done.js:boxDone
   @~3/input_mail_a
   @~3/resend:Resend

@@ -255,19 +255,19 @@ p, .box__ghost-container
 
 <script lang="coffee">
 > @3-/on:On
-  @~3/title
-  @3-/doc
+  @2-/title
+  @2-/doc/HTM.js
 
 + eye
 
 onMount =>
   title notFound$
-  pageX = doc.offsetWidth
-  pageY = doc.offsetHeight
+  pageX = HTM.offsetWidth
+  pageY = HTM.offsetHeight
   mouseY=0
   mouseX=0
   On(
-    doc
+    HTM
     mousemove: (event) =>
       mouseY = event.pageY
       mouseX = event.pageX / -pageX

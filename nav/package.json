@@ -1,6 +1,6 @@
 {
   "name": "@~3/nav",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "repository": "https://github.com/3TiSite/plugin.git",
   "homepage": "https://github.com/3TiSite/plugin/tree/main/nav",
   "keywords": [
@@ -18,6 +18,6 @@
   "type": "module",
   "dependencies": {
     "@3-/on": "^0.0.1",
-    "@3-/split": "^0.0.2"
+    "@3-/split": "^0.1.1"
   }
 }

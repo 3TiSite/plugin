@@ -1,4 +1,4 @@
-> @~3/new:New
+> @2-/new:New
 
 div = =>
   New.div

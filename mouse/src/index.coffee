@@ -1,5 +1,5 @@
 > ./Body.svelte
-  @~3/new:New
+  @2-/new:New
 
 < =>
   {b} = New

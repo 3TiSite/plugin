@@ -1,5 +1,5 @@
 > ./xBox.js
-  @~3/new:New
+  @2-/new:New
 
 < (tag)=>
   t = New[tag]

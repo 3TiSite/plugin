@@ -1,4 +1,4 @@
-> @3-/tag0
+> @2-/tag0
 
 < (resend, form)=>
   await resend()

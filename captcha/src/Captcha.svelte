@@ -2,7 +2,7 @@
 > ~/lib/S.js
   @3-/render:
   @5-/captcha > Captcha
-  @~3/new:New
+  @2-/new:New
 
 < req
 < reject

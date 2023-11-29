@@ -2,14 +2,15 @@
 > ./SignUp.svelte
   ./onUser.js > setUser
   ./reset.js
+  @2-/errer:@ > clear
+  @2-/focus
+  @2-/fp
   @5-/auth/S.js > auth
   @~3/box/Focus.js:Box
+  @~3/box/pbox.js
   @~3/boxmd
-  @~3/errer:@ > clear
-  @~3/focus
   ~/lib/SITE.js
   ~/lib/fMdTxt.js
-  @~3/box/pbox.js
 
 < n = 1
 < account = localStorage.account or ''
@@ -59,7 +60,14 @@ submit = =>
   if not argee
     return
   li = input_li.map((i)=>i.value)
-  user = await errer(form,auth(n,...li))
+  user = await errer(
+    form
+    auth(
+      await fp()
+      n
+      ...li
+    )
+  )
   if user != null
     if user
       localStorage.account = input_li[0].value

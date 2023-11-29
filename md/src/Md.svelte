@@ -2,8 +2,8 @@
 > ~/lib/fMdTxt.js
   @~3/wait:Wait
   @3-/mark
-  @~3/title
-  @3-/tag0
+  @2-/title
+  @2-/tag0
   svelte > tick
 
 + h,m

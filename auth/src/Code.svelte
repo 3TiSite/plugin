@@ -1,10 +1,11 @@
 <script lang="coffee">
 > ~/lib/SITE.js
-  @~3/errer
+  @2-/errer
   @~3/input_mail_a
   @~3/box/pbox.js
   @~3/resend:Resend
   @~3/resend/sendFocus.js
+  @2-/fp
 
 < done
 < li
@@ -21,6 +22,7 @@ code = ''
 
 s = =>
   r = await errer form, submit(
+    await fp()
     ... li
     code
   )

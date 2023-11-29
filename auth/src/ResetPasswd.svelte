@@ -1,5 +1,5 @@
 <script lang="coffee">
-> @~3/errer
+> @2-/errer
   ./passwd.js
   @~3/box/pbox.js
 

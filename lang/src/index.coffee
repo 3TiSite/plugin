@@ -1,5 +1,5 @@
-> @3-/doc
+> @2-/doc/HTM.js
 
 < =>
-  doc.lang
+  HTM.lang
 

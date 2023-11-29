@@ -1,6 +1,6 @@
 <script lang="coffee">
-> @~3/errer
-  @3-/tag0
+> @2-/errer
+  @2-/tag0
   svelte > tick
 
 < val

@@ -3,8 +3,8 @@
   ~/lib/S.js:@ > setAuth
   @~3/lang/set.js:setLang > onSet:onLangSet
   @3-/cookieget
-  @~3/bc/bcHook.js
-  @~3/bc/toAll.js
+  @2-/bc/bcHook.js
+  @2-/bc/toAll.js
   ./auth.js > signIn
 
 HOOK = new Set

@@ -7,9 +7,10 @@
 
 < li
 
-
 resend = =>
-  authReset ...li
+  authReset(
+    ...li
+  )
 
 done = (user)=>
   setUser user
