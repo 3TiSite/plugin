@@ -18,7 +18,7 @@ resend = =>
   )
 
 done = (uid)=>
-  setUser [uid, name]
+  setUser [uid, 0, 0, name]
   confirm ->
     @[_$created]
   return

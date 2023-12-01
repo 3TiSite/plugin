@@ -287,4 +287,3 @@ p
       &>a
         opacity 1
 </style>
-

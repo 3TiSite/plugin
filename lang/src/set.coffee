@@ -3,12 +3,9 @@
 HOOK = new Set
 
 < (l)=>
-  HTM.lang = l
-  Promise.allSettled [...HOOK].map (f)=>
-    try
-      await f l
-    catch err
-      console.error err
+  localStorage.LANG = HTM.lang = l
+  [...HOOK].map (f)=>
+    f l
     return
 
 < onSet = (f)=>

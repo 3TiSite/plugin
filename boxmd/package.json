@@ -1,6 +1,6 @@
 {
   "name": "@~3/boxmd",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/3TiSite/plugin.git"
@@ -22,7 +22,7 @@
   "type": "module",
   "dependencies": {
     "@~3/box": "^0.1.26",
-    "@~3/md": "^0.1.4",
+    "@~3/md": "^0.1.5",
     "@~3/svelte_mount": "^0.0.1"
   }
 }

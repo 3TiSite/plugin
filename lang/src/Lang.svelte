@@ -1,6 +1,7 @@
 <script lang="coffee">
-> ./set.js
+> ./set.js:@ > onSet
   ./nowLang.js
+  @3-/fall
   ~/lib/SITE.js
   @3-/on:On
   @3-/minw
@@ -15,49 +16,54 @@ NOW = nowLang
 onMount =>
   e.classList.remove W
   + unbind
-  On(
-    e
-    click:=>
-      unbind?()
-      setTimeout(
-        =>
-          unbind = On(
-            document.body
-            click: =>
-              d = 0
-              unbind()
-              return
-          )
-          return
-      )
-      d = !d
-      if d
-        await tick()
-        maxHeight = document.body.clientHeight * 0.7 - 23
-        rect =  b.getBoundingClientRect()
-        if rect.height > maxHeight
-          sum = 0
-          n = 0
-          ali = b.getElementsByTagName('a')
-          for i from ali
-            sum += i.clientWidth
-            ++n
-          area = (sum + 7*(n-1)) * (7+ali[0].clientHeight)
-          w =  Math.min(
-            rect.right
-            Math.round Math.max(
-              Math.sqrt(area) + 70
-              area / maxHeight
-            )
-          )
-          b.style="width:#{w}px;flex-wrap:wrap;flex-direction:row-reverse"
-          b.style.width = minw(b) + 2 +'px'
+  fall(
+    onSet (lang)=>
+      NOW = lang
       return
+    On(
+      e
+      click:=>
+        unbind?()
+        setTimeout(
+          =>
+            unbind = On(
+              document.body
+              click: =>
+                d = 0
+                unbind()
+                return
+            )
+            return
+        )
+        d = !d
+        if d
+          await tick()
+          maxHeight = document.body.clientHeight * 0.7 - 23
+          rect =  b.getBoundingClientRect()
+          if rect.height > maxHeight
+            sum = 0
+            n = 0
+            ali = b.getElementsByTagName('a')
+            for i from ali
+              sum += i.clientWidth
+              ++n
+            area = (sum + 7*(n-1)) * (7+ali[0].clientHeight)
+            w =  Math.min(
+              rect.right
+              Math.round Math.max(
+                Math.sqrt(area) + 70
+                area / maxHeight
+              )
+            )
+            b.style="width:#{w}px;flex-wrap:wrap;flex-direction:row-reverse"
+            b.style.width = minw(b) + 2 +'px'
+        return
+    )
   )
 
 c = (l)=>
   e.classList.add W
-  localStorage.LANG = NOW = l
+  NOW = l
   await set l
   e.classList.remove W
   return

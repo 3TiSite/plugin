@@ -19,7 +19,13 @@ onMount =>
   h = mark md
   await tick()
   t = document.title
-  title tag0(m,'h1')?.innerText
+  p = md.indexOf('# ')
+  if ~p
+    p+=2
+    end = md.indexOf('\n', p)
+    if end > 0
+      h1 = md.slice(p, end)
+  title h1
   =>
     title t
     return

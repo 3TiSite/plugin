@@ -18,7 +18,7 @@
   "type": "module",
   "dependencies": {
     "@2-/new": "^0.1.1",
-    "gsap": "^3.12.2",
+    "gsap": "^3.12.3",
     "lodash-es": "^4.17.21",
     "paper": "^0.12.17",
     "simplex-noise": "^4.0.1"

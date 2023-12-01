@@ -32,7 +32,10 @@ setName = =>
   await authName ...li
   u = User()
   if u and u[0] == li[0]
-    setUser li
+    t = [...u] # if change u , will not update
+    ++t[1] # update ver
+    t[3] = li[1] # set name
+    setUser t
   return 1
 
 setMail = (old)=>
@@ -106,4 +109,3 @@ main
     &:hover
       filter btn-hover-filter
 </style>
-

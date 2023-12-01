@@ -18,7 +18,7 @@ click = menu(
 <template lang="pug">
 b
   +if user
-    a.u(@click) {user[1]}
+    a.u(@click) {user[3]}
     +else
       a(@click=signUp) >signUp
       | ⧸

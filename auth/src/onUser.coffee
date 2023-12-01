@@ -1,11 +1,13 @@
-> @5-/auth/S.js > authMe authExit
-  @3-/lang/CODE.js
-  ~/lib/S.js:@ > setAuth
-  @~3/lang/set.js:setLang > onSet:onLangSet
-  @3-/cookieget
+> ./auth.js > signIn
   @2-/bc/bcHook.js
   @2-/bc/toAll.js
-  ./auth.js > signIn
+  @2-/share
+  @2-/share/swHook.js
+  @3-/cookieget
+  @3-/lang/CODE.js
+  @5-/auth/S.js > authMe authExit
+  @~3/lang/set.js:setLang > onSet:onLangSet
+  ~/lib/S.js:@ > setAuth
 
 HOOK = new Set
 
@@ -15,29 +17,29 @@ cookieV = =>
   cookieget(document.cookie).V
 
 save = =>
-  localStorage.U = JSON.stringify([
+  t = [
     cookieV()
-    USER
-  ])
+  ]
+  if USER
+    t.push ...USER
+  else
+    t.push USER
+
+  localStorage.U = JSON.stringify(t)
   return
 
 onLangSet (lang)=>
-  if not USER
-    return
   if LANG != lang
-    if LANG != undefined
-      if USER
-        S.authLang()
+    if USER and LANG != undefined
+      S.authLang()
     LANG = lang
   return
 
 _setUser = (user)=>
   if user
-    if user.length > 2
-      lang = CODE[user[2]]
-      if lang != LANG
-        setLang LANG = lang
-    user = user.slice(0, 2)
+    lang = CODE[user[2]]
+    if lang != LANG
+      setLang LANG = lang
   else
     user = false
   USER = user
@@ -49,9 +51,20 @@ _setUser = (user)=>
   return
 
 < setUser = (user)=>
+  if user and USER
+    if user.every(
+      (e, i)=>
+        e == USER[i]
+    )
+      return
   _setUser user
   save()
-  toAll 1,user
+  for f from [toAll,share]
+    f 0,user
+  return
+
+swHook[0] = (user)=>
+  setUser user
   return
 
 await do =>
@@ -64,15 +77,19 @@ await do =>
   if U
     U = JSON.parse U
     if U[0] == v
-      USER = U[1]
+      share(
+        0
+        USER = U[1] and U.slice(1)
+      )
       return
   setUser await authMe()
   return
 
 # 广播用户消息
-bcHook(1,_setUser)
+bcHook(0,_setUser)
 
-export User = => USER
+export User = =>
+  USER
 
 export default (f)=>
   HOOK.add f

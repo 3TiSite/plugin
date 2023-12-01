@@ -206,4 +206,3 @@ form
       &>a:hover
         border-color #f40
 </style>
-
