@@ -8,7 +8,6 @@ URL_TOKEN = '/token'
 
 Menu.unshift [
   _$apiToken
-  0
   URL_TOKEN
 ]
 

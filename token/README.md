@@ -7,13 +7,7 @@
 ```coffee
 #!/usr/bin/env coffee
 
-> @3-/token
-#   @3-/uridir
-#   path > join
-
-# ROOT = uridir(import.meta)
-
-console.log await token 123
+> @~3/token
 ```
 
 output :

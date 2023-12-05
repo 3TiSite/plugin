@@ -1,13 +1,15 @@
 <script lang="coffee">
-+ aTurn,disable,id
++ aTurn,enable,id
 
 < turn
+< rm
+< refresh
 
 onMount ->
   setTimeout =>
     b = aTurn.parentNode
     id = +b.previousSibling.rel
-    disable = b.parentNode.parentNode.classList.contains 'd'
+    enable = b.parentNode.parentNode.classList.contains 'e'
     return
   return
 
@@ -17,12 +19,12 @@ turnSet = (v)=>
 </script>
 
 <template lang="pug">
-+if disable
-  a(@click={turnSet(0)}) 启用
++if enable
+  a(@click={turnSet(0)}) >disable
   +else
-    a(@&aTurn @click={turnSet(1)}) 禁用
-a 更换
-a 删除
+    a(@&aTurn @click={turnSet(1)}) >enable
+a(@click={refresh(id)}) >refresh
+a(@click={rm(id)}) >rm
 </template>
 
 <style lang="stylus"></style>

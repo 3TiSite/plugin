@@ -14,11 +14,11 @@ onMount onI18n(
 </script>
 
 <template lang="pug">
-+each li as [t,fn,href]
-  +if href
-    a(href:) {t}
++each li as [t,r]
+  +if r.constructor == String
+    a(href:r) {t}
     +else
-      a(@click=fn) {t}
+      a(@click=r) {t}
 </template>
 
 <style lang="stylus"></style>

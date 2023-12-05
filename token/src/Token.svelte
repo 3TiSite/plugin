@@ -3,6 +3,7 @@
   @~3/menu
   @~3/wait:Wait
   ./Menu.svelte
+  @5-/token/S.js > token tokenRm tokenRefresh tokenNew tokenTurn
   @~3/box/Focus.js:Box
   ./New.svelte
 
@@ -12,43 +13,47 @@ create = =>
   Box(
     New
     {
-      li
+      add:(name)=>
+        li = [await tokenNew(name)].concat li
+        return
     }
   )
   return
 
 drop = menu Menu,{
+  refresh: (id)=>
+    r = await tokenRefresh(id)
+    if r
+      for i,p in li
+        if i[0] == id
+          li[p][2] = r
+          break
+    return
+  rm:(id)=>
+    for i,p in li
+      if i[0] == id
+        li.splice(p,1)
+        break
+    await tokenRm(id)
+    li = if li.length then li else await token()
+    return
   turn:(id,v)=>
     for i,p in li
       if i[0] == id
         i[3] = v
         li[p] = i
-        console.log 'todo',id, v
         break
+    await tokenTurn(id,v)
     return
 }
 
 
 onMount =>
-  li = [
-    [
-      121
-      '默认令牌'
-      'FvgA3CTcu6'
-      0
-    ]
-    [
-      122
-      '测试'
-      'Xsf22342423'
-      1
-    ]
-  ]
+  li = await token()
   return
 
 copy = ->
   d = 'd'
-  console.log @classList
   @classList.add d
   setTimeout(
     =>
@@ -66,15 +71,19 @@ main
   h1 >apiToken
   +if li
     b
-      +each li as [id,name,token,disable]
-        b(class:d=disable)
+      +each li as [id,name,t,enable]
+        b(class:e=enable)
           b
-            b {name}
+            b
+              +if name
+                | {name}
+                +else
+                  | >defaultToken
             a(@click=drop rel:id)
           i
-            i {token}
+            i {t}
             a(@click=copy)
-    button(@click=create) 创建
+    button(@click=create) >create
     +else
       Wait
 </template>
@@ -101,7 +110,7 @@ main
     &>b
       margin-bottom 16px
 
-      &.d
+      &:not(.e)
         &>i, &>b>b
           opacity 0.3
 
@@ -136,6 +145,7 @@ main
 
         &>i
           border-right 0
+          font-family c, monospace
           font-style normal
           padding 16px
 
@@ -147,7 +157,7 @@ main
         position relative
 
         &>a
-          background var(--svgNabla) 68% 77% / 8px no-repeat
+          background var(--svgNabla) 65% 77% / 8px no-repeat
           border 2px solid #000
           border-radius 16px
           height 14px

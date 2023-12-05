@@ -1,24 +1,25 @@
 <script lang="coffee">
-< li
+< add
 
-+ val
++ val,form
 
 submit = =>
-  console.log val,'value'
+  add val.trim()
+  form.parentNode.close()
   return
 </script>
 
 <template lang="pug">
 include /input.pug
-form(@submit|preventDefault=submit)
-  h2 接口令牌
-  +input("名称")(
+form(@submit|preventDefault=submit @&form)
+  h2 >apiToken
+  +input(">name")(
    value&val
    placeholder=" "
    required
    type="text"
   )
-  button(type="submit") 创建
+  button(type="submit") >create
 </template>
 
 <style lang="stylus">
