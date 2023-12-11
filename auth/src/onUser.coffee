@@ -3,7 +3,7 @@
   @2-/bc/toAll.js
   @2-/share
   @2-/share/swHook.js
-  @3-/cookieget
+  @2-/cookie/get.js:cookieGet
   @3-/lang/CODE.js
   @5-/auth/S.js > authMe authExit
   @~3/lang/set.js:setLang > onSet:onLangSet
@@ -13,12 +13,12 @@ HOOK = new Set
 
 + USER, LANG
 
-cookieV = =>
-  cookieget(document.cookie).V
+{V} = cookieGet(document.cookie)
+V = if V then parseInt(V, 36) else 0
 
 save = =>
   t = [
-    cookieV()
+    V
   ]
   if USER
     t.push ...USER
@@ -57,6 +57,16 @@ _setUser = (user)=>
         e == USER[i]
     )
       return
+
+  (
+    await import('@2-/cookie/set.js')
+  ).default(
+    'V'
+    (
+      ++V
+    ) .toString(36)
+  )
+
   _setUser user
   save()
   for f from [toAll,share]
@@ -68,15 +78,14 @@ swHook[0] = (user)=>
   return
 
 await do =>
-  v = cookieV()
-  if not v
+  if not V
     USER = false
     return
 
   {U} = localStorage
   if U
     U = JSON.parse U
-    if U[0] == v
+    if U[0] == V
       share(
         0
         USER = U[1] and U.slice(1)

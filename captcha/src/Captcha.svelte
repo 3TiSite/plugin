@@ -113,6 +113,7 @@ i
       opacity 1
 
 h5
+  font-size 16px
   font-style normal
   margin 0 12px 0 0
   user-select none
@@ -144,4 +145,3 @@ b>:global(i)
   user-select none
   width 24px
 </style>
-

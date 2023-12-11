@@ -3,7 +3,7 @@
   @~3/box/Focus.js:Box
 
 < (account='')->
-  pbox(@).close()
+  pbox(@)?.close()
   Box(
     ResetPasswd
     {

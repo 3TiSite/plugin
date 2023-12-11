@@ -18,7 +18,11 @@
   "files": [
     "lib/*"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "@~3/auth": "link:../../site/node_modules/@~3/auth",
+    "@~3/box": "link:../../site/node_modules/@~3/box",
+    "~": "link:../../site/src"
+  },
   "scripts": {},
   "type": "module"
 }

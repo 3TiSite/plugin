@@ -17,7 +17,6 @@
 
 + form, input_li, autocomplete
 
-
 N = 'n'
 
 argee = true
@@ -76,7 +75,7 @@ submit = =>
       Box SignUp, {
         li
       }
-    pbox(form).close()
+    pbox(form)?.close()
   return
 </script>
 

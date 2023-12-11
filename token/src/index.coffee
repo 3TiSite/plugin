@@ -1,14 +1,6 @@
-> @~3/auth/Menu.js
+> @~3/auth/logined.js
+  @~3/auth/menuUrl.js
   ~/lib/I18N.js > _$apiToken
-  ~/lib/SITE.js
-  @~3/nav > INIT
   ./Token.svelte
 
-URL_TOKEN = '/token'
-
-Menu.unshift [
-  _$apiToken
-  URL_TOKEN
-]
-
-INIT.token = Token
+menuUrl.token _$apiToken, logined(Token)

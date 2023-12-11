@@ -1,11 +1,12 @@
 <script lang="coffee">
-> @2-/tag0
-  @~3/menu
-  @~3/wait:Wait
-  ./Menu.svelte
+> ./Menu.svelte
+  ./New.svelte
+  @2-/copy
+  @2-/tag0
   @5-/token/S.js > token tokenRm tokenRefresh tokenNew tokenTurn
   @~3/box/Focus.js:Box
-  ./New.svelte
+  @~3/menu
+  @~3/wait:Wait
 
 + li
 
@@ -52,7 +53,7 @@ onMount =>
   li = await token()
   return
 
-copy = ->
+cp = ->
   d = 'd'
   @classList.add d
   setTimeout(
@@ -60,7 +61,7 @@ copy = ->
       @classList.remove d
     2e3
   )
-  navigator.clipboard.writeText(
+  copy(
     tag0(@parentNode,'i').innerText
   )
   return
@@ -82,7 +83,7 @@ main
             a(@click=drop rel:id)
           i
             i {t}
-            a(@click=copy)
+            a(@click=cp)
     button(@click=create) >create
     +else
       Wait
@@ -97,7 +98,7 @@ main
   flex 1
   flex-direction column
   justify-content center
-  margin 0 32px
+  margin 24px
   max-width 600px
 
   b

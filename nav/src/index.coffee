@@ -1,12 +1,15 @@
 > ./route.js:@ > nowUrl
   @3-/split
-
-export INIT = {}
+  ./URLMAP.js
 
 export FUNC = new Map
-
+SLASH = '/'
 export splitSlash = (url)=>
-  split(url,'/')[0]
+  begin = if url.startsWith(SLASH) then 1 else 0
+  end = url.indexOf(SLASH,begin)
+  if end < 0
+    end = url.length
+  url.slice(begin, end)
 
 < (callback) =>
   notFound = =>
@@ -34,7 +37,7 @@ export splitSlash = (url)=>
     =>
       FUNC.clear()
       notFound = 1
-      for [url, args] from Object.entries INIT
+      for [url, args] from Object.entries URLMAP
         if not Array.isArray(args)
           args = [args]
         setRoute url, ...args

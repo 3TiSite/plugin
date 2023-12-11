@@ -1,6 +1,6 @@
 {
   "name": "@~3/auth",
-  "version": "0.1.3",
+  "version": "0.1.17",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/3TiSite/plugin.git"
@@ -28,15 +28,15 @@
   },
   "dependencies": {
     "@2-/bc": "^0.1.4",
+    "@2-/cookie": "^0.1.5",
     "@2-/errer": "^0.1.2",
     "@2-/focus": "^0.1.1",
     "@2-/fp": "^0.1.5",
     "@2-/share": "^0.1.3",
-    "@3-/cookieget": "^0.1.2",
     "@3-/lang": "^0.1.7",
     "@5-/auth": "^0.1.6",
-    "@~3/box": "^0.1.26",
-    "@~3/boxmd": "^0.1.17",
+    "@~3/box": "^0.1.27",
+    "@~3/boxmd": "^0.1.18",
     "@~3/edit": "^0.1.11",
     "@~3/input_mail_a": "^0.1.5",
     "@~3/menu": "^0.1.16",
