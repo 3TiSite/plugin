@@ -37,9 +37,11 @@ onLangSet (lang)=>
 
 _setUser = (user)=>
   if user
-    lang = CODE[user[2]]
-    if lang != LANG
-      setLang LANG = lang
+    lang = user[2]
+    if lang != undefined
+      lang = CODE[lang]
+      if lang != LANG
+        setLang LANG = lang
   else
     user = false
   USER = user

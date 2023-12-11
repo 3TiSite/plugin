@@ -5,6 +5,7 @@
   @5-/auth/S.js > auth authSignUp
   @~3/box/confirm.js
   ~/lib/I18N.js > _$created
+  @~3/lang/nowLang.js
 
 < li
 
@@ -18,7 +19,7 @@ resend = =>
   )
 
 done = (uid)=>
-  setUser [uid, 0, 0, name]
+  setUser [uid, 0, , name]
   confirm ->
     @[_$created]
   return
@@ -44,4 +45,3 @@ Code(done: li: resend: submit:)
 </template>
 
 <style lang="stylus"></style>
-
